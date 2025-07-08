@@ -55,7 +55,11 @@ function Header() {
                         <li><LangSelect/></li>
                         <li>
                             <a className={styles.picLink} href='https://github.com/Francis-Berrier?tab=repositories' target="_blank" rel="noopener noreferrer">
-                                <Image src="/abilities_logo/github_logo.svg" alt='logo github' fill className={styles.img}/>
+                                <Image src="/abilities_logo/github_logo.svg" alt='logo github' 
+                                    width={30}
+                                    height={30} 
+                                    className={styles.img}
+                                />
                             </a>
                         </li>
                     </ul>
