@@ -1,5 +1,4 @@
 'use client'
-
 import styles from "./Header.module.scss"
 import LangSelect from "../LangSelect";
 import { useLang } from '@/context/LangContext';
@@ -10,8 +9,7 @@ import Link from "next/link";
 
 function Header() {
     const { datas } = useLang();
-    if(datas === null) return; 
-       const headerDatas: HeaderDataType= datas.datas.header; 
+    
 
     const [isMobile, setIsMobile] = useState<boolean | null>(null);
     const [navOpen, setNavOpen] = useState(false);
@@ -34,6 +32,8 @@ function Header() {
         mediaQuery.removeEventListener('change', handleMediaChange);
         };
     }, []);
+    if(datas === null) return; 
+    const headerDatas: HeaderDataType= datas.datas.header; 
 
     const toggleOpen= () => {
         setNavOpen(!navOpen)

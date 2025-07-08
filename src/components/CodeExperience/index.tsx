@@ -1,6 +1,5 @@
 'use client'
 import styles from './CodeExperience.module.scss'
-import Link from 'next/link';
 import { useLang } from '../../context/LangContext';
 import type { ExperiencesCodeDatasType } from '../../types/AboutTypes';
 import CodeCards from '../CodeCards'

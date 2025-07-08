@@ -1,6 +1,5 @@
 'use client'
 import styles from './ContactPresentation.module.scss'
-import Link from 'next/link';
 import type { ContactPresentationType } from '../../types/HomeDataType';
 import { useLang } from '../../context/LangContext';
 import Button from '../Button'; 
