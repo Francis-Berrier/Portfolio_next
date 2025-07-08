@@ -1,346 +1,336 @@
 {
     "abilities": [
         {
-        "id": 1,
-        "imgUrl": "/abilities_logo/react_logo.svg",
-        "name": "React",
-        "description": "React is a JavaScript library developed by Meta for building interactive, component-based user interfaces efficiently.",
-        "precentProgress": 80
+            "id": 1,
+            "imgUrl": "/abilities_logo/react_logo.svg",
+            "name": "React",
+            "description": "React is a JavaScript library developed by Meta to efficiently build interactive user interfaces based on components.",
+            "percentProgress": 80
         },
         {
-        "id": 2,
-        "imgUrl": "/abilities_logo/html_logo.svg",
-        "name": "HTML 5",
-        "description": "HTML5 is the standard language for structuring web content. It introduces semantic tags, video, audio, and better accessibility.",
-        "precentProgress": 90
+            "id": 2,
+            "imgUrl": "/abilities_logo/html_logo.svg",
+            "name": "HTML5",
+            "description": "HTML5 is the standard language for structuring web content. It introduces semantic tags, video and audio support, and improves accessibility.",
+            "percentProgress": 90
         },
         {
-        "id": 3,
-        "imgUrl": "/abilities_logo/css_logo.svg",
-        "name": "CSS 3",
-        "description": "CSS3 styles web pages with animations, transitions, and advanced layouts like Flexbox and Grid.",
-        "precentProgress": 90
+            "id": 3,
+            "imgUrl": "/abilities_logo/css_logo.svg",
+            "name": "CSS3",
+            "description": "CSS3 enables styling of web pages with animations, transitions, and advanced layouts such as Flexbox or Grid.",
+            "percentProgress": 90
         },
         {
-        "id": 4,
-        "imgUrl": "/abilities_logo/javascript_logo.svg",
-        "name": "Javascript",
-        "description": " JavaScript is a programming language that makes web pages interactive: animations, dynamic forms, and live updates.",
-        "precentProgress": 90
+            "id": 4,
+            "imgUrl": "/abilities_logo/javascript_logo.svg",
+            "name": "JavaScript",
+            "description": "JavaScript is a programming language that makes web pages interactive: animations, dynamic forms, and updates without reloading.",
+            "percentProgress": 80
         },
         {
-        "id": 5,
-        "imgUrl": "/abilities_logo/nodejs_logo.svg",
-        "name": "Node.js",
-        "description": "Node.js is a server-side JavaScript runtime based on V8, ideal for fast, scalable web applications.",
-        "precentProgress": 60
+            "id": 5,
+            "imgUrl": "/abilities_logo/nodejs_logo.svg",
+            "name": "Node.js",
+            "description": "Node.js is a server-side JavaScript runtime environment based on V8, ideal for fast and scalable web applications.",
+            "percentProgress": 60
         },
         {
-        "id": 6,
-        "imgUrl": "/abilities_logo/expressjs_logo.svg",
-        "name": "Express.js",
-        "description": "Express.js is a minimalist Node.js framework designed to build APIs and web apps quickly.",
-        "precentProgress": 70
+            "id": 6,
+            "imgUrl": "/abilities_logo/expressjs_logo.svg",
+            "name": "Express.js",
+            "description": "Express.js is a minimalist framework for Node.js, designed to quickly build APIs and web applications.",
+            "percentProgress": 70
         },
         {
-        "id": 7,
-        "imgUrl": "/abilities_logo/ror_logo.svg",
-        "name": "Ruby on Rails",
-        "description": "Ruby on Rails is a Ruby-based web framework emphasizing convention over configuration for rapid development.",
-        "precentProgress": 20
+            "id": 7,
+            "imgUrl": "/abilities_logo/ror_logo.svg",
+            "name": "Ruby on Rails",
+            "description": "Ruby on Rails is a web framework based on Ruby, following the convention over configuration principle for rapid development.",
+            "percentProgress": 20
         },
         {
-        "id": 8,
-        "imgUrl": "/abilities_logo/nestjs_logo.svg",
-        "name": "NestJs",
-        "description": "NestJS is a structured Node.js framework inspired by Angular, used to build robust TypeScript APIs.",
-        "precentProgress": 10
+            "id": 8,
+            "imgUrl": "/abilities_logo/nestjs_logo.svg",
+            "name": "NestJS",
+            "description": "NestJS is a structured Node.js framework inspired by Angular, designed to build robust APIs using TypeScript.",
+            "percentProgress": 10
         },
         {
-        "id": 9,
-        "imgUrl": "/abilities_logo/git_logo.svg",
-        "name": "Git",
-        "description": "Git is a distributed version control system that tracks and manages changes in source code.",
-        "precentProgress": 75
+            "id": 9,
+            "imgUrl": "/abilities_logo/git_logo.svg",
+            "name": "Git",
+            "description": "Git is a distributed version control system that tracks and manages changes to source code.",
+            "percentProgress": 75
         },
         {
-        "id": 10,
-        "imgUrl": "/abilities_logo/github_logo.svg",
-        "name": "GitHub",
-        "description": "GitHub is a Git-based collaborative platform for hosting, sharing, and versioning code online.",
-        "precentProgress": 75
+            "id": 10,
+            "imgUrl": "/abilities_logo/github_logo.svg",
+            "name": "GitHub",
+            "description": "GitHub is a collaborative platform based on Git, used to host, share, and version code online.",
+            "percentProgress": 75
         },
         {
-        "id": 11,
-        "imgUrl": "/abilities_logo/vscode_logo.svg",
-        "name": "Visual Studio Code",
-        "description": "VS Code is a lightweight, extensible, cross-platform code editor ideal for web development and supporting many languages.",
-        "precentProgress": 75
+            "id": 11,
+            "imgUrl": "/abilities_logo/vscode_logo.svg",
+            "name": "Visual Studio Code",
+            "description": "VS Code is a lightweight, extensible, cross-platform code editor, ideal for web development and compatible with many languages.",
+            "percentProgress": 75
         },
         {
-        "id": 12,
-        "imgUrl": "/abilities_logo/typescript_logo.svg",
-        "name": "TypeScript",
-        "description": "TypeScript is a superset of JavaScript that adds static typing for better readability, maintainability, and compile-time error checking.",
-        "precentProgress": 70
+            "id": 12,
+            "imgUrl": "/abilities_logo/typescript_logo.svg",
+            "name": "TypeScript",
+            "description": "TypeScript is a superset of JavaScript that adds static typing, improving maintainability, readability, and compile-time error detection.",
+            "percentProgress": 70
         },
         {
-        "id": 13,
-        "imgUrl": "/abilities_logo/postgre_logo.svg",
-        "name": "PostGreSQL",
-        "description": "PostgreSQL is a powerful, reliable, open-source relational database system that follows SQL standards.",
-        "precentProgress": 60
+            "id": 13,
+            "imgUrl": "/abilities_logo/postgre_logo.svg",
+            "name": "PostgreSQL",
+            "description": "PostgreSQL is a powerful, reliable, open-source relational database system that complies with SQL standards.",
+            "percentProgress": 60
         },
         {
-        "id": 14,
-        "imgUrl": "/abilities_logo/mysql_logo.svg",
-        "name": "MySQL",
-        "description": "MySQL is a widely used relational database management system, suitable for both simple and complex web applications.",
-        "precentProgress": 60
+            "id": 14,
+            "imgUrl": "/abilities_logo/mysql_logo.svg",
+            "name": "MySQL",
+            "description": "MySQL is a widely used relational database management system, suitable for both simple and complex web applications.",
+            "percentProgress": 60
         },
         {
-        "id": 15,
-        "imgUrl": "/abilities_logo/mongodb_logo.svg",
-        "name": "MongoDB",
-        "description": "MongoDB is a document-oriented NoSQL database, flexible and ideal for unstructured data and scalable apps.",
-        "precentProgress": 50
+            "id": 15,
+            "imgUrl": "/abilities_logo/mongodb_logo.svg",
+            "name": "MongoDB",
+            "description": "MongoDB is a NoSQL document-oriented database, flexible and ideal for unstructured data and scalable applications.",
+            "percentProgress": 50
         },
         {
-        "id": 16,
-        "imgUrl": "/abilities_logo/nextjs_logo.svg",
-        "name": "Next.js",
-        "description": "Next.js is a React framework for full-stack web development, supporting server-side rendering (SSR) and static site generation (SSG).",
-        "precentProgress": 20
+            "id": 16,
+            "imgUrl": "/abilities_logo/nextjs_logo.svg",
+            "name": "Next.js",
+            "description": "Next.js is a React framework for full-stack web development, featuring server-side rendering (SSR) and static site generation (SSG).",
+            "percentProgress": 20
         },
         {
-        "id": 17,
-        "imgUrl": "/abilities_logo/apple_logo.svg",
-        "name": "MacOS",
-        "description": "MacOS is Apple’s operating system for its computers, known for stability, security, and a clean interface.",
-        "precentProgress": 50
+            "id": 17,
+            "imgUrl": "/abilities_logo/apple_logo.svg",
+            "name": "macOS",
+            "description": "macOS is the operating system developed by Apple for its computers, known for its stability, security, and intuitive interface.",
+            "percentProgress": 50
         },
         {
-        "id": 18,
-        "imgUrl": "/abilities_logo/windows_logo.svg",
-        "name": "Windows",
-        "description": "Windows is Microsoft’s operating system, widely used in personal, professional, and educational environments."
+            "id": 18,
+            "imgUrl": "/abilities_logo/windows_logo.svg",
+            "name": "Windows",
+            "description": "Windows is an operating system developed by Microsoft, widely used in personal, professional, and educational environments.",
+            "percentProgress": 60
         },
         {
-        "id": 19,
-        "imgUrl": "/abilities_logo/sass_logo.svg",
-        "name": "Sass",
-        "description": "Sass is a CSS preprocessor that enables variables, loops, and functions for more maintainable styling code.",
-        "precentProgress": 80
+            "id": 19,
+            "imgUrl": "/abilities_logo/sass_logo.svg",
+            "name": "Sass",
+            "description": "Sass is a CSS preprocessor that allows the use of variables, loops, and functions to write more structured and maintainable code.",
+            "percentProgress": 80
         },
         {
-        "id": 20,
-        "imgUrl": "/abilities_logo/postman_logo.svg",
-        "name": "Postman",
-        "description": "Postman is an API testing tool that simplifies HTTP requests, documentation, and automated tests.",
-        "precentProgress": 40
+            "id": 20,
+            "imgUrl": "/abilities_logo/postman_logo.svg",
+            "name": "Postman",
+            "description": "Postman is an API testing tool that simplifies HTTP requests, documentation, and test automation.",
+            "percentProgress": 40
         },
         {
-        "id": 21,
-        "imgUrl": "/abilities_logo/protools_logo.svg",
-        "name": "Pro Tools",
-        "description": " Pro Tools is a professional audio production software used in studios for recording, editing, and advanced mixing.",
-        "precentProgress": 95
+            "id": 21,
+            "imgUrl": "/abilities_logo/protools_logo.svg",
+            "name": "Pro Tools",
+            "description": "Pro Tools is a professional audio production software used in studios for advanced recording, editing, and mixing.",
+            "percentProgress": 95
         }
     ],
     "code": [
         {
             "id": 1,
-            "name": "Interior architect's website",
+            "name": "Interior Architect's Website",
             "codeUrl": "https://github.com/Francis-Berrier/Site-Sophie-Bluel.git",
             "codeImgUrl": "/pic_projets/bluel_capture.webp",
-            "description": "As part of an exercise to develop the frontend of a website using HTML, JS, and CSS without any library or framework, I chose to structure it with a pure JS MVC architecture to build a client-rendered one-page site. Note that the backend was not developed by me.",
+            "description": "Frontend development exercise using pure HTML, CSS, and JavaScript, without any libraries or frameworks. I structured the code using an MVC pattern to build a client-rendered One Page site. The backend was provided and not developed by me.",
             "langages": ["HTML", "CSS", "JavaScript"]
         },
         {
             "id": 2,
-            "name": "Kasa real estate agency website",
+            "name": "Kasa Real Estate Website",
             "codeUrl": "https://github.com/Francis-Berrier/kasa.git",
             "codeImgUrl": "/pic_projets/kasa_capture.webp",
-            "description": "The task was to develop the website’s frontend based on a provided mockup using React. In addition, I implemented centralized error handling and separated content management to make the project ready for potential translation.",
+            "description": "Frontend developed in React based on a provided mockup. The project includes centralized error handling and content separation to support future multilingual translations.",
             "langages": ["React", "Sass"]
         },
         {
             "id": 3,
-            "name": "Backend of a book rating website",
+            "name": "Book Rating Site Backend",
             "codeUrl": "https://github.com/Francis-Berrier/VieuxGrimoireBackend.git",
             "codeImgUrl": "/pic_projets/grimoire_capture.webp",
-            "description": "For this project, we were asked to develop the backend of a book rating website using Node.js, Express, and a MongoDB database. I focused on bringing it close to a production-ready state, with a modular structure and attention to security. I also implemented error monitoring through a logging system. Additionally, to enhance my learning, I developed an alternative version on a separate Git branch using PostgreSQL and Prisma.",
-            "langages": ["Node.Js", "Express.js", "MongoDB", "PostGreSQL"]
+            "description": "Backend developed with Node.js, Express.js, and MongoDB, featuring a modular architecture, enhanced security practices, and error monitoring via a logging system. I also built a parallel version using PostgreSQL and Prisma to further develop my skills.",
+            "langages": ["Node.js", "Express.js", "MongoDB", "PostgreSQL"]
         },
         {
             "id": 4,
-            "name": "Portfolio Francis Berrier",
+            "name": "Francis Berrier Portfolio",
             "codeUrl": "https://github.com/Francis-Berrier/PortFolio.git",
             "codeImgUrl": "/pic_projets/portfolio_capture.webp",
-            "description": "Portfolio présentant mon parcours et mes capacités ",
-            "langages": ["React", "TypeScript", "Sass", "Next.Js"]
+            "description": "Personal portfolio showcasing my background, technical skills, and projects.",
+            "langages": ["React", "TypeScript", "Sass", "Next.js"]
         },
         {
             "id": 5,
-            "name": "In progress: Table tennis tournament management application",
+            "name": "In Progress: Table Tennis Tournament Manager",
             "codeUrl": "",
             "codeImgUrl": "/pic_projets/tt_capture.webp",
-            "description": "Desktop application designed to improve the management of table tennis tournaments within clubs, optimizing result entry and table assignments for organizers, and enhancing match visibility for players.",
-            "langages": ["React", "TypeScript", "Sass", "Next.Js", "Node.Js", "Express.js", "SQLite", "Electron"]
+            "description": "Desktop application designed to streamline the organization of table tennis tournaments within clubs. It optimizes result entry, table assignment, and real-time match tracking for players and organizers.",
+            "langages": ["React", "TypeScript", "Sass", "Next.js", "Node.js", "Express.js", "SQLite", "Electron"]
         }
     ],
     "datas": {
         "home": {
-        "title": "Francis Berrier",
-        "subtitle": "Web Developper",
-        "introText": "After years working on movie industry, I am now a fresh web developper, eager to discover new projects en challenges with you. Let's get acquainted!",
-        "buttonContact": "Contact",
-        "buttonGit": "My Github",
-        "buttonCV": "Download my resumee"
+            "title": "Francis Berrier",
+            "subtitle": "Web Developer",
+            "introText": "After a first career in the film industry, I transitioned into web development. Curious, motivated, and enthusiastic, I’m ready to take on new challenges. Let’s talk!",
+            "buttonContact": "Contact",
+            "buttonGit": "My GitHub",
+            "buttonCV": "Download my CV"
         },
         "homeSkills": {
-        "entete": "Skills",
-        "title": "My favorite technologies:",
-        "cards": 
-            [
-                {
+            "entete": "Skills",
+            "title": "My favorite technologies:",
+            "cards": [
+            {
                 "title": "React",
                 "logoUrl": "/abilities_logo/react_logo.svg",
-                "text": "For building reactive and dynamic websites and web applications using React and Next.js, combining server-side rendering for optimal performance with client-side rendering for dynamic parts."
-                },
-                {
+                "text": "To build dynamic web interfaces using React and Next.js, combining server-side rendering for performance with client-side rendering for interactivity."
+            },
+            {
                 "title": "Sass",
                 "logoUrl": "/abilities_logo/sass_logo.svg",
-                "text": "For modular and flexible style management, enabling a clear and reusable code structure that simplifies CSS handling in complex projects."
-                },
-                {
+                "text": "To structure CSS styles in a modular, clear, and reusable way, making it easier to maintain complex projects."
+            },
+            {
                 "title": "Express.js",
                 "logoUrl": "/abilities_logo/expressjs_logo.svg",
-                "text": "To create secure and robust APIs, compatible with many tools and libraries, allowing fast development of maintainable and production-ready APIs."
-                }
+                "text": "To quickly build robust and secure APIs that are easy to maintain and ready for production thanks to its rich ecosystem."
+            }
             ],
-            "linkButton": "My other skills"
+            "linkButton": "See all my skills"
         },
         "homeContact": {
-            "entete": "Let's Connect",
-            "title": "Open to New Challenges:",
-            "subtitle": "Let's connect and explore how we can achieve your goals together",
-            "text": "If you have any questions, a job offer, or a project to discuss, feel free to get in touch. I'm excited to explore new opportunities with you.",
-            "linkButton": "Contact Me"
+            "entete": "Get in touch",
+            "title": "Open to new projects:",
+            "subtitle": "Let’s work together!",
+            "text": "Have a question? A job offer or a project to suggest? Don’t hesitate to contact me. I’d be happy to chat with you.",
+            "linkButton": "Contact me"
         },
         "header": {
             "home": "Francis Berrier",
             "about": "About",
             "contact": "Contact"
-
-        },
-        "footer": {
-
         },
         "aboutNav": {
-            "title": "About Me",
-            "buttonCV": "Download my resumee",
-            "buttons":[
-                {
-                    "id": 1,
-                    "name": "Biography",
-                    "page": "/about/bio"
-                },
-                {   
-                    "id": 2,
-                    "name": "Experiences",
-                    "page": "/about/experiences"
-                },
-                {   
-                    "id": 3,
-                    "name": "Education",
-                    "page": "/about/formation"
-                },
-                {
-                    "id": 4,
-                    "name": "Capacities",
-                    "page": "/about/abilities"
-                }
-                
+            "title": "About",
+            "buttonCV": "Download my CV",
+            "buttons": [
+            {
+                "id": 1,
+                "name": "Biography",
+                "page": "/about/bio"
+            },
+            {
+                "id": 2,
+                "name": "Experience",
+                "page": "/about/experiences"
+            },
+            {
+                "id": 3,
+                "name": "Education",
+                "page": "/about/formation"
+            },
+            {
+                "id": 4,
+                "name": "Skills",
+                "page": "/about/abilities"
+            }
             ]
         },
         "aboutBio": {
             "bioInfos": {
-                "photoUrl": "/portrait_self.webp",
-                "name": "Francis Berrier",
-                "age": "41 years old",
-                "occupation": "Full-Stack Web Developer"
+            "photoUrl": "/portrait_self.webp",
+            "name": "Francis Berrier",
+            "age": "41 years old",
+            "occupation": "Full-Stack Web Developer"
             },
             "bioText": {
-                "bioTitle": "What is my background?",
-                "bioContent": {
-                    "paragraphe1": "After nearly twenty years in the film industry, I had the opportunity to work on many well-known movies, holding various positions in sound design. This rich and demanding career taught me discipline, autonomy, teamwork, and full commitment to artistic projects.",
-                    "paragraphe2": "Driven by the desire to take on new challenges and find a better balance with family life, I started a career shift into web development. Initially self-taught, I quickly solidified my skills through the OpenClassrooms Web Developer training program, which covered both frontend (React, Sass) and backend (Node.js, Express) technologies.",
-                    "paragraphe3": "Today, I bring the same high standards and dedication to my code: curious, persistent, and fully invested in every project, I keep learning every day to become a reliable, adaptable developer who listens closely to both the team and the users."
-                }
+            "bioTitle": "What’s my background?",
+            "bioContent": {
+                "paragraphe1": "After nearly twenty years in the film industry, I had the opportunity to work on many acclaimed movies, holding various roles in sound production. This experience taught me discipline, autonomy, teamwork, and full dedication to artistic projects.",
+                "paragraphe2": "Looking for new challenges and a better work-life balance, I began retraining in web development. After a self-taught phase, I completed the Web Developer training program at OpenClassrooms, specializing in frontend (React, Sass) and backend (Node.js, Express).",
+                "paragraphe3": "Today, I bring the same level of dedication and discipline to coding: curious, persistent, and attentive, I fully commit to every project to deliver reliable, scalable, and user-oriented solutions."
+            }
             }
         },
         "aboutExperience": {
             "cinema": {
-                "title":"Cinema",
-                "text":"During my career in the film industry, I worked for over 15 years in various roles involved in the sound production of a film, from shooting to post-production. These experiences allowed me to develop discipline and dedication within a team, as well as autonomy and creativity in service of a project. If you’d like to learn more about this work, feel free to explore my filmography.",
-                "link": "/about/experiences/cinemaexperience",
-                "buttonName": "Filmography"
+            "title": "Film Industry",
+            "text": "During my film career, I held various positions in sound production, from filming to post-production. These experiences helped me develop strong discipline, autonomy, and teamwork. To learn more, check out my filmography.",
+            "link": "/about/experiences/cinemaexperience",
+            "buttonName": "Filmography"
             },
             "code": {
-                "title":"Web Developpement",
-                "text":"During my training, I gained experience by developing several learning projects that helped me strengthen my web development skills. To get a better idea of my abilities, check out my work and the code available on GitHub.",
-                "link": "/about/experiences/codeexperience",
-                "buttonName": "Dev Projects"
+            "title": "Web Development",
+            "text": "During my training, I built several real-world projects that allowed me to develop solid technical skills. You can check out these projects and their code on my GitHub.",
+            "link": "/about/experiences/codeexperience",
+            "buttonName": "Projects"
             }
         },
         "aboutExperienceCinema": {
             "buttonName": "Back",
             "link": "/about/experiences",
-            "title": "Career Background ",
-            "introText": "On my my first career, I was lucky to work on many movies in various sound-related jobs. Here is a selection of movies I'm proud to have worked on:",
-            "textFilmo": "View my full filmography",
+            "title": "Experience in the Film Industry",
+            "introText": "During my first career, I had the chance to contribute to many film projects. Here is a selection of the films I worked on:",
+            "textFilmo": "See full filmography",
             "urlFilmo": "https://www.imdb.com/fr/name/nm2588640/?ref_=ttfc_fcr_cr"
-
         },
-        "aboutExperienceCode": { 
+        "aboutExperienceCode": {
             "buttonName": "Back",
             "link": "/about/experiences",
-            "title": "Development Experience",
-            "introText": "Here are some projects I developed during my months of training."
+            "title": "Web Development Projects",
+            "introText": "Here are some projects I completed as part of my training at OpenClassrooms."
         },
         "aboutFormation": "Education",
-        "aboutCompetences": {
-
-        },
         "filmCardData": {
-            "movieInfos": "Movie Details",
-            "directedBy": "Directed By: ",
+            "movieInfos": "Movie Info",
+            "directedBy": "Directed by: ",
             "starring": "Starring: ",
-            "occupation": "Occupation: "
+            "occupation": "Role: "
         },
         "contact": {
-            "title": "Contact Me",
-            "introText": "For your questions, job offer or project you want to propose, contact me. I'm looking forward to new horizons with you.",
-            "labelName": "Name",
-            "labelSurname": "Surname",
-            "labelSociety": "Société",
+            "title": "Get in touch",
+            "introText": "A question? A project to discuss? Feel free to contact me — I’ll be happy to respond.",
+            "labelName": "Last Name",
+            "labelSurname": "First Name",
+            "labelSociety": "Company",
             "labelEmail": "Email",
             "labelMessage": "Message",
-            "placeHolder": "Type your Message",
+            "placeHolder": "Your message here",
             "labelSubmit": "Send",
-            "formMissedField": "Please fill in the required fields (marked with *) before sending your message.",
-            "formWrongEmail": "Wrong Email",
-            "formSendEmail": "Email send",
-            "formErrorEmail": "Impossible to send Email"
-
+            "formMissedField": "Please fill in all required fields (marked with *) before submitting.",
+            "formWrongEmail": "Invalid email",
+            "formSendEmail": "Email successfully sent",
+            "formErrorEmail": "Failed to send email"
         }
     },
-    "films": [    
+    "films": [
         {
             "id": 1,
             "imdbUrl": "https://www.imdb.com/fr/title/tt1314237/?ref_=nm_flmg_job_1_cdt_c_61",
-            "imgFilmUrl": "/films/les_beaux_gosses.jpg",
+            "imgFilmUrl": "/pic_films/les_beaux_gosses.webp",
             "title": "The French Kissers",
             "year": 2009,
             "director": "Riad Sattouf",
@@ -354,7 +344,7 @@
         {
             "id": 2,
             "imdbUrl": "https://www.imdb.com/fr/title/tt1452503/?ref_=nm_flmg_job_1_cdt_t_59",
-            "imgFilmUrl": "/films/bulles_de_vian.jpg",
+            "imgFilmUrl": "/pic_films/bulles_de_vian.webp",
             "title": "Bulles de Vian",
             "year": 2009,
             "director": "Marc Hollogne",
@@ -368,7 +358,7 @@
         {
             "id": 3,
             "imdbUrl": "https://www.imdb.com/fr/title/tt1789992/?ref_=nm_flmg_job_1_cdt_t_48",
-            "imgFilmUrl": "/films/a_vos_caisses.jpg",
+            "imgFilmUrl": "/pic_films/a_vos_caisses.webp",
             "title": "A vos Caisses",
             "year": 2010,
             "director": "Pierre Isoard",
@@ -382,7 +372,7 @@
         {
             "id": 4,
             "imdbUrl": "https://www.imdb.com/fr/title/tt1858582/?ref_=nm_flmg_job_1_cdt_t_47",
-            "imgFilmUrl": "/films/un_monde_sans_femmes.jpg",
+            "imgFilmUrl": "/pic_films/un_monde_sans_femmes.webp",
             "title": "A World without women",
             "year": 2011,
             "director": "Guillaume Brac",
@@ -396,7 +386,7 @@
         {
             "id": 5,
             "imdbUrl": "https://www.imdb.com/fr/title/tt2339351/?ref_=fn_all_ttl_1",
-            "imgFilmUrl": "/films/alyah.jpg",
+            "imgFilmUrl": "/pic_films/alyah.webp",
             "title": "Aliyah",
             "year": 2012,
             "director": "Elie Wajeman",
@@ -410,7 +400,7 @@
         {
             "id": 6,
             "imdbUrl": "https://www.imdb.com/fr/title/tt2397487/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_l%27air%2520de%2520rien",
-            "imgFilmUrl": "/films/air_de_rien.jpg" ,
+            "imgFilmUrl": "/pic_films/air_de_rien.webp" ,
             "title": "L'Air de Rien",
             "year": 2012,
             "director": "Grégory Magne et Stéphane Viard",
@@ -424,7 +414,7 @@
         {
             "id": 7,
             "imdbUrl": "https://www.imdb.com/fr/title/tt2836464/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_la%2520braconne",
-            "imgFilmUrl": "/films/la_braconne.jpg",
+            "imgFilmUrl": "/pic_films/la_braconne.webp",
             "title": "La Braconne",
             "year": 2013,
             "director": "Samuel Rondière",
@@ -438,7 +428,7 @@
         {
             "id": 8,
             "imdbUrl":"https://www.imdb.com/fr/title/tt3828466/?ref_=nm_flmg_job_1_cdt_c_24",
-            "imgFilmUrl": "/films/tonnerre.jpg",
+            "imgFilmUrl": "/pic_films/tonnerre.webp",
             "title": "Tonnerre",
             "year": 2013,
             "director": "Guillaume Brac",
@@ -452,8 +442,8 @@
         
         {
             "id": 9,
-            "imdbUrl":"https://www.imdb.com/fr/title/tt3828466/?ref_=nm_flmg_job_1_cdt_c_24",
-            "imgFilmUrl": "/films/terre_battue.jpg",
+            "imdbUrl":"https://www.imdb.com/fr/find/?q=terre%20battue&ref_=nm_nv_srb_sm",
+            "imgFilmUrl": "/pic_films/terre_battue.webp",
             "title": "40-Love",
             "year": 2014,
             "director": "Stéphane Demoustier",
@@ -467,7 +457,7 @@
         {
             "id": 10,
             "imdbUrl":"https://www.imdb.com/fr/title/tt3660370/?ref_=nm_flmg_job_1_cdt_t_26",
-            "imgFilmUrl": "/films/party_girl.jpg",
+            "imgFilmUrl": "/pic_films/party_girl.webp",
             "title": "Party Girl",
             "year": 2014,
             "director": "Marie Amachoukeli, Claire Burger, Samuel Theis",
@@ -481,7 +471,7 @@
         {
             "id": 11,
             "imdbUrl":"https://www.imdb.com/fr/title/tt4621060/?ref_=nm_flmg_job_1_cdt_t_22",
-            "imgFilmUrl": "/films/la_terre_penche.jpg",
+            "imgFilmUrl": "/pic_films/la_terre_penche.webp",
             "title": "Turning Tides",
             "year": 2015,
             "director": "Christelle Lheureux",
@@ -495,7 +485,7 @@
         {
             "id": 12,
             "imdbUrl":"https://www.imdb.com/fr/title/tt3757648/?ref_=nm_flmg_job_1_cdt_c_20",
-            "imgFilmUrl": "/films/tempete.jpg",
+            "imgFilmUrl": "/pic_films/tempete.webp",
             "title": "Land Legs",
             "year": 2015,
             "director": "Samuel Collardey",
@@ -509,7 +499,7 @@
         {
             "id": 13,
             "imdbUrl":"https://www.imdb.com/fr/title/tt3850740/?ref_=nm_flmg_job_1_cdt_t_19",
-            "imgFilmUrl": "/films/demons.jpg",
+            "imgFilmUrl": "/pic_films/demons.webp",
             "title": "Démons",
             "year": 2015,
             "director": "Marcial Di Fonzo Bo",
@@ -523,7 +513,7 @@
         {
             "id": 14,
             "imdbUrl":"https://www.imdb.com/fr/title/tt5196472/?ref_=nm_flmg_job_1_cdt_t_15",
-            "imgFilmUrl": "/films/compte_tes_blessures.webp",
+            "imgFilmUrl": "/pic_films/compte_tes_blessures.webp",
             "title": "A Taste of Ink",
             "year": 2016,
             "director": "Morgan Simon",
@@ -537,7 +527,7 @@
         {
             "id": 15,
             "imdbUrl":"https://www.imdb.com/fr/title/tt5378294/?ref_=nm_flmg_job_1_cdt_t_13",
-            "imgFilmUrl": "/films/des_plans_sur_la_comete.jpg",
+            "imgFilmUrl": "/pic_films/des_plans_sur_la_comete.webp",
             "title": "Des Plans sur la Comète",
             "year": 2017,
             "director": "Guilhem Amesland",
@@ -550,8 +540,8 @@
         },
         {
             "id": 16,
-            "imdbUrl":"https://www.imdb.com/fr/title/tt5378294/?ref_=nm_flmg_job_1_cdt_t_13",
-            "imgFilmUrl": "/films/une_annee_polaire.jpg",
+            "imdbUrl":"https://www.imdb.com/fr/title/tt7689932/?ref_=nv_sr_srsg_0_tt_3_nm_0_in_0_q_une%2520ann%25C3%25A9e%2520polaire",
+            "imgFilmUrl": "/pic_films/une_annee_polaire.webp",
             "title": "A Polar Year",
             "year": 2018,
             "director": "Samuel Collardey",
@@ -565,7 +555,7 @@
         {
             "id": 17,
             "imdbUrl":"https://www.imdb.com/fr/title/tt7766144/?ref_=nm_flmg_job_1_cdt_t_11",
-            "imgFilmUrl": "/films/allons_enfants.jpg",
+            "imgFilmUrl": "/pic_films/allons_enfants.webp",
             "title": "Cléo and Paul",
             "year": 2018,
             "director": "Stéphane Demoustier",
@@ -579,7 +569,7 @@
         {
             "id": 18,
             "imdbUrl":"https://www.imdb.com/fr/title/tt8212614/?ref_=nm_flmg_job_1_cdt_t_10",
-            "imgFilmUrl": "/films/roulez_jeunesse.jpg",
+            "imgFilmUrl": "/pic_films/roulez_jeunesse.webp",
             "title": "The Troubleshooter",
             "year": 2018,
             "director": "Julien Guetta",
@@ -593,7 +583,7 @@
         {
             "id": 19,
             "imdbUrl":"https://www.imdb.com/fr/title/tt7766886/?ref_=nm_flmg_job_1_cdt_t_8",
-            "imgFilmUrl": "/films/fille_au_bracelet.jpg",
+            "imgFilmUrl": "/pic_films/fille_au_bracelet.webp",
             "title": "The Girl With A Bracelet",
             "year": 2019,
             "director": "Stéphane Demoustier",
@@ -607,7 +597,7 @@
         {
             "id": 20,
             "imdbUrl":"https://www.imdb.com/fr/title/tt9151382/?ref_=nm_flmg_job_1_cdt_t_7",
-            "imgFilmUrl": "/films/je_voudrais_que_quelquun_m_attende_quelque_part.jpg",
+            "imgFilmUrl": "/pic_films/je_voudrais_que_quelquun_m_attende_quelque_part.webp",
             "title": "I Wish Someone Were Waiting for Me Somewhere",
             "year": 2019,
             "director": "Arnaud Viard",
@@ -621,7 +611,7 @@
         {
             "id": 21,
             "imdbUrl":"https://www.imdb.com/fr/title/tt11748354/?ref_=nm_flmg_job_1_cdt_t_6",
-            "imgFilmUrl": "/films/les_parfums.jpg",
+            "imgFilmUrl": "/pic_films/les_parfums.webp",
             "title": "Perfumes",
             "year": 2019,
             "director": "Grégory Magne",
@@ -635,7 +625,7 @@
         {
             "id": 22,
             "imdbUrl":"https://www.imdb.com/fr/title/tt20224464/?ref_=nm_flmg_job_1_cdt_t_4",
-            "imgFilmUrl": "/films/noah_le_sens_de_la_gagne.webp",
+            "imgFilmUrl": "/pic_films/noah_le_sens_de_la_gagne.webp",
             "title": "Noah, le Sens de la Gagne",
             "year": 2022,
             "director": "Vladimir de Fontenay",
@@ -649,7 +639,7 @@
         {
             "id": 23,
             "imdbUrl":"http://www.annee0.com/_/dekalog/",
-            "imgFilmUrl": "/films/dekalog.jpg",
+            "imgFilmUrl": "/pic_films/dekalog.webp",
             "title": "Dekalog",
             "year": 2022,
             "director": "Julien Gosselin",
@@ -663,7 +653,7 @@
         {
             "id": 24,
             "imdbUrl":"https://www.imdb.com/fr/title/tt19121072/?ref_=nm_flmg_job_1_cdt_t_2",
-            "imgFilmUrl": "/films/borgo.jpg",
+            "imgFilmUrl": "/pic_films/borgo.webp",
             "title": "Borgo",
             "year": 2023,
             "director": "Stéphane Demoustier",
@@ -674,61 +664,59 @@
             ],
             "occupation": "Sound Mixer"
         }
-        
-        
     ],
     "formation": [
         {
             "id": 1,
-            "logoUrl": "/icones_formation/saint_cyr.jpg",
-            "formationInfo":{
-                "title": "Science High School Diploma",
-                "school": "Saint Cyr High School", 
-                "period": "1999-2002", 
-                "graduation": " French Baccalaureate, With Distinction (\"Bien\")", 
-                "location": "Nevers"
+            "logoUrl": "/pic_formation/saint_cyr.webp",
+            "formationInfo": {
+            "title": "Scientific Baccalaureate, Mathematics specialization",
+            "school": "Lycée Saint Cyr",
+            "period": "1999-2002",
+            "graduation": "Baccalaureate",
+            "location": "Nevers"
             },
-            "capacities": [],
-            "description": "Graduated with a French Scientific Baccalaureate, specializing in Mathematics, with honors (Mention Bien)"
+            "capacities": ["Scientific rigor", "Logical thinking"],
+            "description": "Obtained the scientific baccalaureate with a specialization in mathematics, awarded with honors (Mention Bien). Training that strengthened my analytical and reasoning skills."
         },
         {
             "id": 2,
-            "logoUrl": "/icones_formation/guisthau.png",
+            "logoUrl": "/pic_formation/guisthau.webp",
             "formationInfo": {
-                "title": "Ciné Sup'",
-                "school": "Gabriel Guist'hau High School",
-                "period": "2002–2004",
-                "graduation": "Level 5 (2-year university degree)",
-                "location": "Nantes"
+            "title": "Ciné Sup' preparatory class, Sound specialization",
+            "school": "Lycée Gabriel Guist'hau",
+            "period": "2002-2004",
+            "graduation": "Level 5 (Bac +2)",
+            "location": "Nantes"
             },
-            "capacities": [],
-            "description": "Public preparatory class for entrance exams to prestigious French film schools (Louis Lumière National Film School and La Fémis), specializing in Sound."
+            "capacities": ["General knowledge", "Critical analysis", "Work methodology"],
+            "description": "Public preparatory class for entrance exams to top film schools (La Fémis, ENS Louis Lumière), specializing in Sound. Demanding training focused on analysis, culture, and methodological rigor."
         },
         {
             "id": 3,
-            "logoUrl": "/icones_formation/femis.jpg",
+            "logoUrl": "/pic_formation/femis.webp",
             "formationInfo": {
-                "title": "La Fémis Degree, Sound Department",
-                "school": "La Fémis (ENSMIS)",
-                "period": "2004–2008",
-                "graduation": "Level 7 (Masters degree equivalent)",
-                "location": "Paris"
+            "title": "Diploma from La Fémis – Sound Department",
+            "school": "La Fémis (ENSMIS)",
+            "period": "2004-2008",
+            "graduation": "Level 7 (Master’s degree equivalent)",
+            "location": "Paris"
             },
-            "capacities": ["Sound Recording", "Sound Editing", "Mixing"],
-            "description": "A prestigious public film school with a strong focus on hands-on practice. Alongside technical knowledge, I developed teamwork skills and creative autonomy."
+            "capacities": ["Mastery of sound tools", "Rigor", "Precision", "Collaborative work"],
+            "description": "Prestigious public film school focused on practical training. I acquired strong technical skills, a commitment to quality, and extensive experience working in teams on complex projects."
         },
         {
             "id": 4,
-            "logoUrl": "/icones_formation/open_classrooms.png",
+            "logoUrl": "/pic_formation/open_classrooms.webp",
             "formationInfo": {
-                "title": "Web Developer",
-                "school": "OpenClassrooms",
-                "period": "2025",
-                "graduation": "Level 5 (2-year university degree)",
-                "location": "Paris (Remote)"
+            "title": "Web Developer – React / Node.js specialization",
+            "school": "OpenClassrooms",
+            "period": "2025",
+            "graduation": "Level 5 (Bac +2)",
+            "location": "Paris (remote)"
             },
-            "capacities": ["React", "JavaScript", "TypeScript", "Node.js", "Express"],
-            "description": "Web developer training focused on learning frontend development with React and backend development with Node.js and Express."
+            "capacities": ["React", "JavaScript", "TypeScript", "Node.js", "Express.js"],
+            "description": "Professional training focused on modern web development, with in-depth learning of frontend (React, Sass) and backend (Node.js, Express)."
         }
     ]
 }

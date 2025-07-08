@@ -40,9 +40,9 @@ function AbilityCard({ability}: {ability: AbilityType}) {
                 <div className={styles.name}>{ability.name}</div>
                 <div className={styles.progress}>
                     <span className={styles.progressBar}>
-                        <div className={styles.progressFill} style={{width: `${ability.precentProgress}%`}}/>
+                        <div className={styles.progressFill} style={{width: `${ability.percentProgress}%`}}/>
                     </span>
-                    <span>{ability.precentProgress}%</span>
+                    <span>{ability.percentProgress}%</span>
                 </div>
             </article>
         {open && (

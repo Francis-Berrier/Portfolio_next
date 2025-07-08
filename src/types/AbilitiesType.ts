@@ -3,9 +3,6 @@ export type AbilityType= {
     imgUrl: string;
     name: string;
     description: string;
-    precentProgress: number;
+    percentProgress: number;
 }
-export type AbilitiesType= {
-    title: string;
-    introText: string;
-}
+
