@@ -20,7 +20,9 @@ export default async function RootLayout({ children }: Readonly<{children: React
       <body>
         <LangProvider initialData={datas} initialLang={lang}>
           <Header/>
-          <main>{children}</main>
+          <main>
+            {children}
+          </main>
         </LangProvider> 
       </body>
     </html>

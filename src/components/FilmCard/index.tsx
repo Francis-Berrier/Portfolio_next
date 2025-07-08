@@ -11,21 +11,32 @@ function FilmCard ({film}: {film: Film}) {
     
     return (
         <article className= {styles.cardContainer}>
-            <a className= {styles.imgFilm} href={film.imdbUrl} target="_blank ">
-                <img src= {film.imgFilmUrl} />
-                <span className={styles.overlay}>{filmCardsDatas.movieInfos}</span>
+            <a className= {styles.imgFilm} 
+                href={film.imdbUrl} target="_blank " 
+                rel="noopener noreferrer"
+                aria-label={`IMDB Page: ${film.title}`}
+            >
+                <img src= {film.imgFilmUrl} alt={`Film ${film.title} (${film.year})`} />
+                <span className={styles.overlay} aria-hidden="true">{filmCardsDatas.movieInfos}</span>
             </a>
             <div className= {styles.filmInfos}>
                 <h3 className= {styles.title}>{film.title}&nbsp;({film.year})</h3>
                 <div className= {styles.infos}>
-                    <div>{filmCardsDatas.directedBy}{film.director}</div>
-                    <div>{filmCardsDatas.starring}{film.actors.map((name, index) => {
-                        return (
-                            <span key={`${name}-${index}`} className= {styles.actorsName}>{name},&nbsp;</span>
-                        )
-                        })}
-                    </div>
-                    <div>{filmCardsDatas.occupation}{film.occupation}</div>
+                    <p>
+                        <strong>{filmCardsDatas.directedBy}</strong> {film.director}
+                    </p>
+                    <p>
+                        <strong>{filmCardsDatas.starring}</strong>
+                        {film.actors.map((name, index) => (
+                        <span key={`${name}-${index}`} className={styles.actorsName}>
+                            {name}
+                            {index < film.actors.length - 1 ? ', ' : ''}
+                        </span>
+                        ))}
+                    </p>
+                    <p>
+                        <strong>{filmCardsDatas.occupation}</strong> {film.occupation}
+                    </p>
                 </div>
             </div>
         </article>

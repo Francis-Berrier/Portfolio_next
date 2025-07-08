@@ -1,4 +1,3 @@
-
 import styles from './SkillsPresentationCard.module.scss'
 import type { SkillsPresentationCardType } from '../../types/HomeDataType';
 

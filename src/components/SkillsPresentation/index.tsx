@@ -2,7 +2,6 @@
 import styles from './SkillsPresentation.module.scss';
 import { useLang } from '../../context/LangContext';
 import Button from '../Button';
-import Link from 'next/link';
 import SkillsPresentationCard from '../SkillsPresentationCard';
 import type { SkillsPresentationDatas } from '../../types/HomeDataType';
 
@@ -23,7 +22,7 @@ function SkillsPresentation() {
                 <SkillsPresentationCard key={index} skills={card}/>
             ))}
            </div>
-           <div className={styles.button}><Link href='/about/abilities' ><Button name={skillsPresDatas.linkButton}/></Link></div>
+           <div className={styles.button}><Button href='/about/abilities' name={skillsPresDatas.linkButton}/></div>
         </section>
     )
 }

@@ -4,7 +4,6 @@ import type { HomeDataType } from '../../types/HomeDataType';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { useLang } from '../../context/LangContext';
-import Link from 'next/link';
 import Button from '../Button'; 
 
 function Landing () {
@@ -30,13 +29,9 @@ function Landing () {
                     </div>
                 </div>
                 <div className={styles.buttonContainer}>
-                    <div className={styles.pageLink}><Link href="/contact">
-                    <Button name={homeDatas.buttonContact} />
-                    </Link></div>
-                    <a href='https://github.com/Francis-Berrier?tab=repositories' target='_blank'>
-                    <Button name={homeDatas.buttonGit} />
-                    </a>
-                    <a href='/cv_essai.pdf' download className={styles.downloadButton}>
+                    <Button href="/contact" name={homeDatas.buttonContact} />
+                    <Button href='https://github.com/Francis-Berrier?tab=repositories'name={homeDatas.buttonGit} />
+                    <a href='/cv_berrier_francis.pdf' download className={styles.downloadButton}>
                         <span><FontAwesomeIcon icon={faDownload}/></span>
                         <span>{homeDatas.buttonCV}</span>
                     </a>    

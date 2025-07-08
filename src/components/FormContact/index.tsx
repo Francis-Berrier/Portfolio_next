@@ -136,10 +136,10 @@ function FormContact() {
                     </textarea>
                 </div>
                 <div className={styles.buttonContainer}>
-                    {/* <button type="submit" className={styles.submitButton}>{contactDatas.labelSubmit}</button>  */}
-                    <button type="submit" className={styles.submitButton}><Button name={contactDatas.labelSubmit}/></button>
-                </div>
-                
+                    <div className={styles.submitButton}>
+                    <Button type="submit" name={contactDatas.labelSubmit}/>
+                    </div>
+                </div> 
             </form>
             
             <Modal

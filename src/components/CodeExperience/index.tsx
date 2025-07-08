@@ -14,24 +14,22 @@ function CodeExperience () {
 
 
     return (
-        <div className={styles.container}>
-            <div className={styles.backButton}><Link href={codeExpDatas.link} ><Button name={codeExpDatas.buttonName}/></Link></div>
+        <div className={styles.container} aria-labelledby="code-experience-title" role="region">
+            <div className={styles.backButton}>
+                <Button href={codeExpDatas.link} name={codeExpDatas.buttonName}/>
+            </div>
             <section className={styles.experiencesContainer}>
 
                 <div className={styles.introduction}>
-                    <h1 className={styles.title}>{codeExpDatas.title}</h1>
+                    <h1 className={styles.title} id="code-experience-title">{codeExpDatas.title}</h1>
                     <div className={styles.introText}>{codeExpDatas.introText}</div>
                 </div>
                 <div className={styles.codeCards}>
                     <CodeCards/>
                 </div>
-
-                
             </section>
-            
         </div>
-    )
-   
+    )   
 }
 
 export default CodeExperience

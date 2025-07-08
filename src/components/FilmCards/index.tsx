@@ -11,7 +11,11 @@ function FilmCards() {
   if(!films) return null;
 
   return (
-    <div className={styles.filmCards}>
+    <div 
+      className={styles.filmCards}
+      aria-label="Filmography"
+      role="region"
+    >
       {films.sort((a,b) => b.id - a.id).map(film => (
         <FilmMini key={film.id} film={film} />
       ))}

@@ -1,6 +1,5 @@
 'use client'
 import styles from './CinemaExperience.module.scss';
-import Link from 'next/link';
 import { useLang } from '../../context/LangContext';
 import type { ExperiencesCinemaDatasType } from '../../types/AboutTypes';
 import Button from '../Button';
@@ -14,26 +13,25 @@ function CinemaExperience () {
 
     return (
         <div>
-            <div className={styles.backButton}><Link href={cineExpDatas.link} ><Button name={cineExpDatas.buttonName}/></Link></div>
-            <section className={styles.experiencesContainer}>
-
+            <div className={styles.backButton}>
+                <Button href={cineExpDatas.link} name={cineExpDatas.buttonName}/>
+            </div>
+            <section 
+                className={styles.experiencesContainer}
+                aria-labelledby="cinema-experience-title"
+            >
                 <div className={styles.introduction}>
-                    <h1 className={styles.title}>{cineExpDatas.title}</h1>
-                    <div className={styles.introText}>{cineExpDatas.introText}</div>
+                    <h2 className={styles.title} id="cinema-experience-title">{cineExpDatas.title}</h2>
+                    <p className={styles.introText}>{cineExpDatas.introText}</p>
                 </div>
-                
                 <div className={styles.filmo}>
                     <FilmCards/>
                 </div>
                 <div className={styles.linkFilmoContainer}>
-                    <a href={cineExpDatas.urlFilmo} target='_blank'>
-                    <Button name={cineExpDatas.textFilmo} />
-                    </a>   
-                </div> 
-                
+                    <Button external={true} href={cineExpDatas.urlFilmo} name={cineExpDatas.textFilmo} />  
+                </div>  
             </section>
         </div>
-        
     )
 }
 

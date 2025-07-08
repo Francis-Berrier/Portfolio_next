@@ -18,20 +18,31 @@ function FilmMini ({film}: {film: Film}) {
 
     return (
         <div>
-            <article className= {styles.cardContainer} onClick={openModal}>
-                <span className={styles.overHover}></span>
-                <div className= {styles.imgFilm}>   
-                    <img src= {film.imgFilmUrl} />
-                </div>
-                <div className= {styles.infos}>
-                    <div className= {styles.title}>{film.title}</div>
-                </div>
+            <article 
+                className= {styles.cardContainer} 
+                onClick={openModal}
+                aria-haspopup="dialog"
+                aria-expanded={modalIsOpen}
+                aria-label={`Open details about the film ${film.title}`}
+            >
+                <button>
+                    <span className={styles.overHover}></span>
+                    <div className= {styles.imgFilm}>   
+                        <img src= {film.imgFilmUrl} alt={`Affiche de ${film.title}`}/>
+                    </div>
+                    <div className= {styles.infos}>
+                        <div className= {styles.title}>{film.title}</div>
+                    </div>
+                </button>
+                
             </article>
             <Modal
                 isOpen= {modalIsOpen}
                 onRequestClose= {closeModal}
+                contentLabel={`Details about ${film.title}`}
                 className={styles.modal}
                 overlayClassName={styles.overlay}
+                ariaHideApp={false}
             >
                 <div onClick={closeModal}>
                     <FilmCard film={film}/>

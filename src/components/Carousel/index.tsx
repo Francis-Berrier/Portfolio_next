@@ -34,15 +34,19 @@ function Carousel({pictures, speed}: {pictures: string[], speed: number}) {
         return () => clearInterval(timer);
 
     }, [pictures, currentIndex]);
-
-    
        
     return (
-        <div ref={carouselRef} className={styles.carousel}>
+        <div 
+            ref={carouselRef} 
+            className={styles.carousel}
+            role="region"
+            aria-roledescription="carousel"
+            aria-label="Project image carousel"
+        >
             <motion.img
                 key={`curr-${currentIndex}`}
                 src={pictures[currentIndex]} 
-                alt={`Image ${currentIndex +1}`}
+                alt={`Image ${currentIndex +1} sur ${pictures.length}`}
                 initial={{ x: width}}
                 animate={{ x: 0 }}
                 onAnimationComplete={() => {setIsAnimating(false)}}
@@ -52,15 +56,15 @@ function Carousel({pictures, speed}: {pictures: string[], speed: number}) {
             <motion.img
                 key={`prev-${prevIndex}`}
                 src={pictures[prevIndex]} 
-                alt={`Image ${prevIndex +1}`}
+                alt=""
+                aria-hidden="true"
                 initial={{ x: 0 }}
                 animate={{ x: -width}}
                 transition={{ duration : 0.5 }}
             />
             }              
         </div>
-    )
-        
+    )        
 }
- export default Carousel
+export default Carousel
     

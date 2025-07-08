@@ -1,11 +1,37 @@
-import styles from "./Button.module.scss";
+'use client';
+import Link from 'next/link';
+import styles from './Button.module.scss';
 
-function Button ({ name }:  {name: string }) {
+type ButtonProps = {
+  name: string;
+  href?: string; 
+  onClick?: () => void;
+  external?: boolean;
+  type?: 'button' | 'submit' | 'reset';
+};
+
+function Button({ name, href, onClick, external = false, type = 'button'}: ButtonProps) {
+  if (href && external) {
     return (
-        <div className={styles.button}>
-            {name}
-        </div>
-    )
+      <a href={href} target="_blank" rel="noopener noreferrer" className={styles.button}>
+        {name}
+      </a>
+    );
+  }
 
+  if (href) {
+    return (
+      <Link href={href} className={styles.button}>
+        {name}
+      </Link>
+    );
+  }
+
+  return (
+    <button type={type} onClick={onClick} className={styles.button}>
+      {name}
+    </button>
+  );
 }
+
 export default Button;

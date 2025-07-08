@@ -3,13 +3,13 @@ import styles from './Capacities.module.scss'
 function Capacities ({capacities}: {capacities: string[]}) {
 
     return (
-        <div className= {styles.tagContainer}>
+        <ul className= {styles.tagContainer} aria-label='Compétences'>
             {capacities.map((tag, index) => {
                 return (
-                    <span key={`${tag}-${index}`} className= {styles.tag}>{tag}</span>
+                    <li key={`${tag}-${index}`} className= {styles.tag}>{tag}</li>
                 )
             })}
-        </div>
+        </ul>
     )
 }
 

@@ -6,29 +6,25 @@ import Button from '../Button';
 function CodeCard({code}: {code: Code}) {
 
     return(
-        <article className={styles.container}>
+        <article className={styles.container} aria-labelledby={`codecard-title-${code.id}`}>
             <div className={styles.picContainer}>
-                <img src={code.codeImgUrl}/>
+                <img src={code.codeImgUrl} alt={`Capture d'écran du projet ${code.name}`} />
             </div>
             <div className={styles.textContainer}>
-                <h2 className={styles.title}>{code.name}</h2>
+                <h2 id={`codecard-title-${code.id}`} className={styles.title}>{code.name}</h2>
                 <div className={styles.text}>{code.description}</div>
                 <div className={styles.tagsButton}>
                     <div className={styles.tags}>
                         <Capacities capacities={code.langages} />
                     </div>
                     {code.codeUrl !== "" &&
-                    <a href={code.codeUrl} target="_blank" className={styles.button}>
-                        <Button name="Code Source"/>
-                    </a>
+                    <div className={styles.button}>
+                        <Button href={code.codeUrl} external={true} name="Github"/>
+                    </div>
                     }
-                    
-
                 </div>
             </div>
-
         </article>
     )
 }
-
 export default CodeCard;

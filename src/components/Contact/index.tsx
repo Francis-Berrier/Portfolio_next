@@ -12,9 +12,9 @@ function Contact() {
 
     return (
         <main className={styles.contactContainer}>
-            <section className={styles.contactIntro}>
-                <h1 className={styles.title}>{contactDatas.title}</h1>
-                <div className={styles.introText}>{contactDatas.introText}</div>
+            <section className={styles.contactIntro} aria-labelledby="contact-page-title">
+                <h1 className={styles.title} id="contact-page-title">{contactDatas.title}</h1>
+                <p className={styles.introText}>{contactDatas.introText}</p>
             </section>
             <section className={styles.formContact}>
                 <FormContact/>
