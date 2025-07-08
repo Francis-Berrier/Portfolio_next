@@ -31,7 +31,7 @@ function Landing () {
                 <div className={styles.buttonContainer}>
                     <Button href="/contact" name={homeDatas.buttonContact} />
                     <Button href='https://github.com/Francis-Berrier?tab=repositories'name={homeDatas.buttonGit} />
-                    <a href='/cv_berrier_francis.pdf' download className={styles.downloadButton}>
+                    <a href='/francis_berrier_cv.pdf' download className={styles.downloadButton}>
                         <span><FontAwesomeIcon icon={faDownload}/></span>
                         <span>{homeDatas.buttonCV}</span>
                     </a>    

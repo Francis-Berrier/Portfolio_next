@@ -39,7 +39,7 @@ function AboutNav () {
                 </ul>
             </nav>
             <a 
-                href='/cv_berrier_francis.pdf' 
+                href='/francis_berrier_cv.pdf' 
                 download 
                 className={styles.downloadButton}
                 aria-label="Télécharger le CV au format PDF"
