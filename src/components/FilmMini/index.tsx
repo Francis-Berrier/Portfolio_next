@@ -4,6 +4,7 @@ import type { Film } from '../../types/Film';
 import { useState } from 'react';
 import Modal from 'react-modal';
 import FilmCard from '../FilmCard';
+import Image from 'next/image';
 
 function FilmMini ({film}: {film: Film}) {
     const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -25,15 +26,15 @@ function FilmMini ({film}: {film: Film}) {
                 aria-expanded={modalIsOpen}
                 aria-label={`Open details about the film ${film.title}`}
             >
-                <button>
+                
                     <span className={styles.overHover}></span>
                     <div className= {styles.imgFilm}>   
-                        <img src= {film.imgFilmUrl} alt={`Affiche de ${film.title}`}/>
+                        <Image src= {film.imgFilmUrl} alt={`Affiche de ${film.title}`} fill className={styles.img}/>
                     </div>
                     <div className= {styles.infos}>
                         <div className= {styles.title}>{film.title}</div>
                     </div>
-                </button>
+                
                 
             </article>
             <Modal

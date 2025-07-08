@@ -1,6 +1,6 @@
 'use client'
 import styles from './Carousel.module.scss'
-import { useRef, useLayoutEffect, useState, useEffect } from 'react';
+import { useRef, useLayoutEffect, useState, useEffect, useCallback } from 'react';
 import { motion } from 'framer-motion';
 
 function Carousel({pictures, speed}: {pictures: string[], speed: number}) {
@@ -13,15 +13,16 @@ function Carousel({pictures, speed}: {pictures: string[], speed: number}) {
         if (carouselRef.current) {
             setWidth(carouselRef.current.offsetWidth);
         }
-    });
+    }, []);
     const [isAnimating,setIsAnimating] = useState(false);
     const [prevIndex, setPrevIndex] = useState(0);
     const [currentIndex, setCurrentIndex]= useState(0);
-    const nextSlide= () => {
+
+    const nextSlide= useCallback(() => {
         setIsAnimating(true);
         setPrevIndex(currentIndex);
         setCurrentIndex((index) => ( index + 1) % pictures.length);
-    };
+    }, [currentIndex, pictures.length]);
     
     useEffect(() => {
         if(!pictures || pictures.length === 0) return;
@@ -33,7 +34,7 @@ function Carousel({pictures, speed}: {pictures: string[], speed: number}) {
         const timer = setInterval((nextSlide), timeout);
         return () => clearInterval(timer);
 
-    }, [pictures, currentIndex]);
+    }, [pictures, nextSlide, timeout]);
        
     return (
         <div 

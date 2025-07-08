@@ -2,6 +2,7 @@
 import styles from './FilmCard.module.scss'
 import { useLang } from '../../context/LangContext';
 import type { Film, FilmCardDataType} from '../../types/Film';
+import Image from 'next/image';
 
 function FilmCard ({film}: {film: Film}) {
     const { datas } = useLang();
@@ -16,7 +17,7 @@ function FilmCard ({film}: {film: Film}) {
                 rel="noopener noreferrer"
                 aria-label={`IMDB Page: ${film.title}`}
             >
-                <img src= {film.imgFilmUrl} alt={`Film ${film.title} (${film.year})`} />
+                <Image src= {film.imgFilmUrl} alt={`Film ${film.title} (${film.year})`} fill className={styles.img}/>
                 <span className={styles.overlay} aria-hidden="true">{filmCardsDatas.movieInfos}</span>
             </a>
             <div className= {styles.filmInfos}>

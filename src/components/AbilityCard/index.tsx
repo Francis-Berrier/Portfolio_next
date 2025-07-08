@@ -3,6 +3,7 @@ import styles from './AbilityCard.module.scss'
 import type { AbilityType } from '../../types/AbilitiesType';
 import { useFloating, offset, flip, shift } from '@floating-ui/react-dom-interactions';
 import { useState, useRef, useEffect, useId } from 'react';
+import Image from 'next/image';
 
 function AbilityCard({ability}: {ability: AbilityType}) {
     const [open, setOpen] = useState(false);
@@ -64,7 +65,7 @@ function AbilityCard({ability}: {ability: AbilityType}) {
                 tabIndex={0}
                 aria-expanded={open}
             >
-                <div className={styles.logo}><img src={ability.imgUrl}/></div>
+                <div className={styles.logo}><Image src={ability.imgUrl} alt={`Logo de ${ability.name}`} fill className={styles.img}/></div>
                 <div className={styles.name}>{ability.name}</div>
                 <div className={styles.progress}>
                     <span className={styles.progressBar}

@@ -29,16 +29,23 @@
 
 }
 .logo{
-    img{
-        all:unset;
-        height: 80%;
-        box-sizing: border-box;
-    }
+    position: relative;
     display: flex;
     align-items: center;
-    height: 70%;
-    padding: 15px 0;
-    box-sizing: border-box;    
+    height: 112px;
+    width: 144px;
+    margin: 15px 0;
+
+    box-sizing: border-box; 
+    @include respond-to("mobile") {
+        width: 75px;
+        height: 86px;
+    }   
+}
+.img {
+    object-fit: contain;
+    object-position: center;
+    box-sizing: border-box;
 }
 .progress {
     display: flex;

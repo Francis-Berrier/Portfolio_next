@@ -6,6 +6,7 @@ import { useState, useEffect } from 'react';
 import { config } from "@/assets/config";
 import type { HeaderDataType } from "@/types/HeaderDataType";
 import Link from "next/link";
+import Image from "next/image";
 
 function Header() {
     const { datas } = useLang();
@@ -31,7 +32,7 @@ function Header() {
         return () => {
         mediaQuery.removeEventListener('change', handleMediaChange);
         };
-    }, []);
+    }, [breakPoint]);
     if(datas === null) return; 
     const headerDatas: HeaderDataType= datas.datas.header; 
 
@@ -52,7 +53,11 @@ function Header() {
                         <li className={styles.pageLink}><Link href="/about">{headerDatas.about}</Link></li>
                         <li className={styles.pageLink}><Link href="/contact">{headerDatas.contact}</Link></li>
                         <li><LangSelect/></li>
-                        <li className={styles.picLink}><a href='https://github.com/Francis-Berrier?tab=repositories' target="_blank" rel="noopener noreferrer"><img src="/abilities_logo/github_logo.svg"/></a></li>
+                        <li>
+                            <a className={styles.picLink} href='https://github.com/Francis-Berrier?tab=repositories' target="_blank" rel="noopener noreferrer">
+                                <Image src="/abilities_logo/github_logo.svg" alt='logo github' fill className={styles.img}/>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </header>
@@ -74,7 +79,11 @@ function Header() {
                         <li className={styles.pageLink}><Link href="/about">{headerDatas.about}</Link></li>
                         <li className={styles.pageLink}><Link href="/contact">{headerDatas.contact}</Link></li>
                         <li><LangSelect/></li>
-                        <li className={styles.picLink}><a href='https://github.com/Francis-Berrier?tab=repositories' target="_blank" rel="noopener noreferrer"><img src="/abilities_logo/github_logo.svg"/></a></li>
+                        <li>
+                            <a className={styles.picLink} href='https://github.com/Francis-Berrier?tab=repositories' target="_blank" rel="noopener noreferrer">
+                                <Image src="/abilities_logo/github_logo.svg" alt='logo github' fill className={styles.img}/>
+                            </a>
+                        </li>
                         
                     </ul>
                 </nav>

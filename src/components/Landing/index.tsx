@@ -4,7 +4,7 @@ import type { HomeDataType } from '../../types/HomeDataType';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { useLang } from '../../context/LangContext';
-import Button from '../Button'; 
+import Button from '../Button';
 
 function Landing () {
 
@@ -15,7 +15,7 @@ function Landing () {
     return (
         <div className={styles.wrapper}>
             <div className={styles.fond}>
-                <img src='/fonds/fenetre_vscode.webp'/>
+                <img src='/fonds/fenetre_vscode.webp' alt='Fond Ecran de Code'/>
             </div>
             <section className={styles.landingContainer}>
                 

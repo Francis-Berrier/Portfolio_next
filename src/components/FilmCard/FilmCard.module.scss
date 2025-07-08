@@ -21,18 +21,14 @@
 .imgFilm {
     position: relative;
     height: 60%;
-    width: auto;
+    aspect-ratio: 3/4;
     box-sizing: border-box;
     box-shadow:
     4px 4px 20px #74757528,
     -4px -4px 20px #74757528;
-      
-    img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        box-sizing: border-box;        
-    }
+}
+.img {
+    object-fit: contain;       
 }
 .overlay{
     position: absolute;

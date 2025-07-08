@@ -2,6 +2,7 @@
 import styles from './AboutBio.module.scss'
 import { useLang } from '../../context/LangContext';
 import type { AboutBioType } from '../../types/AboutTypes';
+import Image from 'next/image';
 
 function AboutBio () {
     const { datas } = useLang();
@@ -14,7 +15,7 @@ function AboutBio () {
             <div className={styles.aboutBioCard}>
                 <div className={styles.infos}>
                     <div className={styles.photoContainer}>
-                        <img src={aboutBioDatas.bioInfos.photoUrl} alt={`Photo ${aboutBioDatas.bioInfos.name}`}/>
+                        <Image src={aboutBioDatas.bioInfos.photoUrl} alt={`Photo ${aboutBioDatas.bioInfos.name}`} fill className={styles.img}/>
                     </div>
                     <h2 className={styles.nameBio}>{aboutBioDatas.bioInfos.name}</h2>
                     <p className={styles.ageBio}>{aboutBioDatas.bioInfos.age}</p>

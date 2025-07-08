@@ -29,6 +29,7 @@
     height: 100%;
     opacity: 0;
     background: $card-bgcolor;
+    z-index: 9;
 
     &:hover {
         opacity: 1;
@@ -36,23 +37,18 @@
 }
 
 .imgFilm {
-    
+    position: relative;
     width: 100%;
     height: 85%;
-    box-sizing: border-box;
     box-shadow:
     4px 4px 20px #74757528, 
     -4px -4px 20px #74757528;
     box-sizing: border-box;
-    
-    
-    img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        box-sizing: border-box;
-        
-    }
+      
+}
+.img{
+    object-fit: cover;
+    box-sizing: border-box; 
 }
 .infos {
     display: flex;
@@ -85,6 +81,7 @@
     height: fit-content;
     align-items: center;
     justify-content: center;
+    z-index: 10;
 }
 .overlay {
     width: 100vw;
@@ -96,4 +93,5 @@
     align-items: center;
     justify-content: center;
     background: #000000a4;
+    z-index: 10;
 }

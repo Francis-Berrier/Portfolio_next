@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
 
-}
+} 
 .aboutBioCard {
     width: 65vw;
     margin: 50px 50px;
@@ -45,18 +45,16 @@
     }
 }
 .photoContainer {
+    position: relative;
     width: 120px;
-    height: 120px;
-    border-radius: 60px;
+    height: 130px;
+    // border-radius: 60px;
     margin-bottom: 30px;
-
-    img {
-        width: 100%;
-        height: 100%;
-        border-radius: 60px;
-        object-fit: cover;
-    }
-
+}
+.img {
+    // border-radius: 60px;
+    object-fit: contain;
+    object-position: center;
 }
 .nameBio{
     font-size: 18px;
