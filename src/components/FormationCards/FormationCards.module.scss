@@ -1,0 +1,19 @@
+@import "../../styles/utils/mixins";
+@import "../../styles/utils/variables";
+
+.formationCards {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+    column-gap: 40px;
+    margin-top: 30px;
+
+    @include respond-to("tablet"){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

@@ -1,0 +1,124 @@
+@import "../../styles/utils/mixins";
+@import "../../styles/utils/variables";
+
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    // left: 0;
+    padding: 20px 50px;
+    height: 10vh;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 100;
+    background-color: $third-color;
+    border-bottom: 2px solid $border-color;
+    
+    @include respond-to("tablet"){
+        border-bottom: 4px solid $third-color;
+        position: fixed;
+        padding: 10px 30px;
+        height: 10.1vh;
+    }
+}
+.ul {
+    all:unset;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+     @include respond-to("mobile"){
+        flex-direction: column;
+        align-items: flex-end;
+        row-gap: 5px;
+        padding: 5px 20px 5px 0;
+    }
+}
+.pageLink{
+    all: unset;
+    font-size: 18px;
+    font-weight: $middle-weight;
+    margin-right: 30px;
+    color: $primary-color;
+    cursor: pointer;
+    &:hover {
+        color: $secondary-color;
+        
+    }
+}
+.navHidden {
+    width: 100%;
+    max-height: 0;
+    opacity: 0;
+    border-bottom: 1px solid $border-color;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.navDisplay {
+  position:fixed;
+  background-color: black;
+  top: 10vh;
+  max-height: 200px;
+  opacity: 1;
+  z-index: 1000;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 100;
+
+  span {
+    height: 3px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+    transform-origin: center;
+  }
+
+  &.isOpen {
+    span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 6px);
+    }
+
+    span:nth-child(2) {
+      opacity: 0;
+    }
+
+    span:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -6px);
+    }
+  }
+}
+.mobileVisible {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.picLink {
+    all:unset;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid $border-color;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        height: 100%; 
+        border-radius: 15px;
+        object-fit: cover;
+    }
+}

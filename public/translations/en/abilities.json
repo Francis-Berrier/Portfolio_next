@@ -1,0 +1,148 @@
+[
+    {
+    "id": 1,
+    "imgUrl": "/abilities_logo/react_logo.svg",
+    "name": "React",
+    "description": "React is a JavaScript library developed by Meta for building interactive, component-based user interfaces efficiently.",
+    "precentProgress": 80
+    },
+    {
+    "id": 2,
+    "imgUrl": "/abilities_logo/html_logo.svg",
+    "name": "HTML 5",
+    "description": "HTML5 is the standard language for structuring web content. It introduces semantic tags, video, audio, and better accessibility.",
+    "precentProgress": 90
+    },
+    {
+    "id": 3,
+    "imgUrl": "/abilities_logo/css_logo.svg",
+    "name": "CSS 3",
+    "description": "CSS3 styles web pages with animations, transitions, and advanced layouts like Flexbox and Grid.",
+    "precentProgress": 90
+    },
+    {
+    "id": 4,
+    "imgUrl": "/abilities_logo/javascript_logo.svg",
+    "name": "Javascript",
+    "description": " JavaScript is a programming language that makes web pages interactive: animations, dynamic forms, and live updates.",
+    "precentProgress": 90
+    },
+    {
+    "id": 5,
+    "imgUrl": "/abilities_logo/nodejs_logo.svg",
+    "name": "Node.js",
+    "description": "Node.js is a server-side JavaScript runtime based on V8, ideal for fast, scalable web applications.",
+    "precentProgress": 60
+    },
+    {
+    "id": 6,
+    "imgUrl": "/abilities_logo/expressjs_logo.svg",
+    "name": "Express.js",
+    "description": "Express.js is a minimalist Node.js framework designed to build APIs and web apps quickly.",
+    "precentProgress": 70
+    },
+    {
+    "id": 7,
+    "imgUrl": "/abilities_logo/ror_logo.svg",
+    "name": "Ruby on Rails",
+    "description": "Ruby on Rails is a Ruby-based web framework emphasizing convention over configuration for rapid development.",
+    "precentProgress": 20
+    },
+    {
+    "id": 8,
+    "imgUrl": "/abilities_logo/nestjs_logo.svg",
+    "name": "NestJs",
+    "description": "NestJS is a structured Node.js framework inspired by Angular, used to build robust TypeScript APIs.",
+    "precentProgress": 10
+    },
+    {
+    "id": 9,
+    "imgUrl": "/abilities_logo/git_logo.svg",
+    "name": "Git",
+    "description": "Git is a distributed version control system that tracks and manages changes in source code.",
+    "precentProgress": 75
+    },
+    {
+    "id": 10,
+    "imgUrl": "/abilities_logo/github_logo.svg",
+    "name": "GitHub",
+    "description": "GitHub is a Git-based collaborative platform for hosting, sharing, and versioning code online.",
+    "precentProgress": 75
+    },
+     {
+    "id": 11,
+    "imgUrl": "/abilities_logo/vscode_logo.svg",
+    "name": "Visual Studio Code",
+    "description": "VS Code is a lightweight, extensible, cross-platform code editor ideal for web development and supporting many languages.",
+    "precentProgress": 75
+    },
+    {
+    "id": 12,
+    "imgUrl": "/abilities_logo/typescript_logo.svg",
+    "name": "TypeScript",
+    "description": "TypeScript is a superset of JavaScript that adds static typing for better readability, maintainability, and compile-time error checking.",
+    "precentProgress": 70
+    },
+     {
+    "id": 13,
+    "imgUrl": "/abilities_logo/postgre_logo.svg",
+    "name": "PostGreSQL",
+    "description": "PostgreSQL is a powerful, reliable, open-source relational database system that follows SQL standards.",
+    "precentProgress": 60
+    },
+    {
+    "id": 14,
+    "imgUrl": "/abilities_logo/mysql_logo.svg",
+    "name": "MySQL",
+    "description": "MySQL is a widely used relational database management system, suitable for both simple and complex web applications.",
+    "precentProgress": 60
+    },
+    {
+    "id": 15,
+    "imgUrl": "/abilities_logo/mongodb_logo.svg",
+    "name": "MongoDB",
+    "description": "MongoDB is a document-oriented NoSQL database, flexible and ideal for unstructured data and scalable apps.",
+    "precentProgress": 50
+    },
+    {
+    "id": 16,
+    "imgUrl": "/abilities_logo/nextjs_logo.svg",
+    "name": "Next.js",
+    "description": "Next.js is a React framework for full-stack web development, supporting server-side rendering (SSR) and static site generation (SSG).",
+    "precentProgress": 20
+    },
+    {
+    "id": 17,
+    "imgUrl": "/abilities_logo/apple_logo.svg",
+    "name": "MacOS",
+    "description": "MacOS is Apple’s operating system for its computers, known for stability, security, and a clean interface.",
+    "precentProgress": 50
+    },
+     {
+    "id": 18,
+    "imgUrl": "/abilities_logo/windows_logo.svg",
+    "name": "Windows",
+    "description": "Windows is Microsoft’s operating system, widely used in personal, professional, and educational environments."
+    },
+      {
+    "id": 19,
+    "imgUrl": "/abilities_logo/sass_logo.svg",
+    "name": "Sass",
+    "description": "Sass is a CSS preprocessor that enables variables, loops, and functions for more maintainable styling code.",
+    "precentProgress": 80
+    },
+    {
+    "id": 20,
+    "imgUrl": "/abilities_logo/postman_logo.svg",
+    "name": "Postman",
+    "description": "Postman is an API testing tool that simplifies HTTP requests, documentation, and automated tests.",
+    "precentProgress": 40
+    },
+     {
+    "id": 21,
+    "imgUrl": "/abilities_logo/protools_logo.svg",
+    "name": "Pro Tools",
+    "description": " Pro Tools is a professional audio production software used in studios for recording, editing, and advanced mixing.",
+    "precentProgress": 95
+    }
+]

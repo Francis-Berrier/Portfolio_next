@@ -1,0 +1,43 @@
+@import "../../styles/utils/mixins";
+@import "../../styles/utils/variables";
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+    padding: 100px;
+    background-color: $card-bgcolor;
+    box-sizing: border-box;
+
+    @include respond-to("mobile"){
+        padding: 30px 30px;
+        
+    }
+    
+}
+.tag {
+    font-size: 12px;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid $secondary-color;
+    border-radius: 10px;
+    color: $secondary-color;
+
+}
+.title {
+    font-size: 28px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    padding: 20px 0;
+
+    @include respond-to("mobile"){
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        
+    }
+}

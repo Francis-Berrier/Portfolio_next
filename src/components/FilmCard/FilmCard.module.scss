@@ -1,0 +1,71 @@
+@import "../../styles/utils/mixins";
+@import "../../styles/utils/variables";
+
+.cardContainer {
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 30px;
+    padding: 30px 20px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: #fff9f9;
+    box-shadow:
+    inset 4px 4px 20px #2b2b2b54,
+    inset -4px -4px 20px #2b2b2b54;   
+    
+} 
+.imgFilm {
+    position: relative;
+    height: 60%;
+    width: auto;
+    box-sizing: border-box;
+    box-shadow:
+    4px 4px 20px #74757528,
+    -4px -4px 20px #74757528;
+      
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-sizing: border-box;        
+    }
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: $heavy-weight;
+    color: #fff;
+    background: #0000007e;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+.title {
+    font-size: 20px;
+    font-weight: $heavy-weight;
+    color: $secondary-color;
+    padding-bottom: 10px;
+}
+.filmInfos {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.infos {
+    font-size: 16px;
+    font-weight: $light-weight;
+}

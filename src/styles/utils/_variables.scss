@@ -1,0 +1,27 @@
+$primary-color: rgba(246, 246, 246, 1);
+$secondary-color: #f07657d5;
+$third-color: #000000;
+$fourth-color: #c5c5c5;
+$fifth-color: #f14f2770;
+$border-color: #cccbcb8f;
+$card-bgcolor: #14183a4f;
+$mobile-card-bgcolor: #0a0c24b4;
+$tooltip-bgcolor: #1f212c;
+$card-hover: #14183a94;
+$button-clr: #8486fab7;
+$button-hover: #3d40ff85 ;
+
+/*font*/
+$primary-font: "Monserrat", sans-serif;
+
+/*font-weight*/
+$light-weight: 400;
+$middle-weight: 600;
+$heavy-weight: 700;
+$super-heavy-weight: 900;
+
+/*breakpoints*/
+$breakpoints: (
+    "tablet": 1024px,
+    "mobile" : 768px
+)

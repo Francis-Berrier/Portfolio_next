@@ -1,0 +1,21 @@
+@import "../../styles/utils/mixins";
+@import "../../styles/utils/variables";
+
+.container {
+    margin: 50px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+
+    @include respond-to("mobile") {
+        margin: 30px 10px 30px 10px;
+    }
+    
+}
+.title {
+    font-size: 36px;
+    font-weight: $super-heavy-weight;
+    color: $secondary-color;
+    
+}

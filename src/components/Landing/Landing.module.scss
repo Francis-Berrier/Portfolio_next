@@ -1,0 +1,129 @@
+@import "../../styles/utils/mixins";
+@import "../../styles/utils/variables";
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #000000ea 40%, #00000000 100%);
+
+}
+.landingContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 100%;
+    padding: 100px;
+    box-sizing: border-box;
+    
+    @include respond-to("tablet"){
+        padding: 100px 50px 100px 50px;   
+    }
+    @include respond-to("mobile"){
+        padding: 50px 30px 60px 30px;   
+    }
+    
+}
+.fond {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    box-sizing: border-box;
+    
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-sizing: border-box;
+    }
+}
+.textAccueilContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 25px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 54px;
+    color: $secondary-color;
+    font-weight: $heavy-weight;
+    margin-top: 30px;
+    row-gap: 5px;
+    
+    @include respond-to("mobile"){
+        font-size: 36px;
+        margin-top: 10px;
+    }
+
+}
+.introText {
+    width: 500px;
+    font-size: 18px;
+    color: $primary-color;
+    box-sizing: border-box;
+
+    @include respond-to("mobile"){
+        width: 100%;
+    }
+
+
+}
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 30px;
+
+}
+.carousel {
+    width: 200px;
+    height: 300px;
+}
+.downloadButton {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: baseline;
+    width: fit-content;
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: $third-color;
+    font-weight: $heavy-weight;
+    border: 1px solid $primary-color;
+    background-color: #f5977fd5;
+    cursor: pointer;
+
+    svg {
+        height: 14px;
+        color: $third-color;
+    }
+
+    @include respond-to("mobile"){
+        column-gap: 5px;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 12px;
+        svg {
+            height: 12px;
+        }
+    }
+
+    &:hover{
+        background-color: $secondary-color;
+        color: $primary-color;
+
+        svg {
+            color: $primary-color;
+        }
+    }
+}

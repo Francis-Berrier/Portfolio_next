@@ -1,0 +1,44 @@
+@import "../../styles/utils/mixins";
+@import "../../styles/utils/variables";
+
+.contactContainer {
+    margin: auto;
+    width: 50%;
+    margin-top: 10vh;
+    padding-top: 15px;
+
+    @include respond-to("mobile"){
+        width: 80%;
+        max-width: 400px;
+    }
+    
+}
+.contactIntro {
+   margin: auto;
+   @include respond-to("mobile"){
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+.title {
+    font-size: 40px;
+    font-weight: $heavy-weight;
+    color: $secondary-color;
+
+    @include respond-to("mobile"){
+        font-size: 28px; 
+    }
+}
+.introText {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    width: 90%;
+
+    @include respond-to("mobile"){
+        font-size: 14px;
+    }
+}
+.formContact {
+    margin: auto;
+}

@@ -1,0 +1,25 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: inherit;
+}
+body {
+    line-height: 1.43;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    font-family: $primary-font;
+    background-color: $third-color;
+    color: $primary-color;
+}
+nav, ul, li, a {
+    all:unset;
+}
+

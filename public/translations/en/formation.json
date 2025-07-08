@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "logoUrl": "/icones_formation/saint_cyr.jpg",
+        "formationInfo":{
+            "title": "Science High School Diploma",
+            "school": "Saint Cyr High School", 
+            "period": "1999-2002", 
+            "graduation": " French Baccalaureate, With Distinction (\"Bien\")", 
+            "location": "Nevers"
+        },
+        "capacities": [],
+        "description": "Graduated with a French Scientific Baccalaureate, specializing in Mathematics, with honors (Mention Bien)"
+    },
+    {
+        "id": 2,
+        "logoUrl": "/icones_formation/guisthau.png",
+        "formationInfo": {
+            "title": "Ciné Sup'",
+            "school": "Gabriel Guist'hau High School",
+            "period": "2002–2004",
+            "graduation": "Level 5 (2-year university degree)",
+            "location": "Nantes"
+        },
+        "capacities": [],
+        "description": "Public preparatory class for entrance exams to prestigious French film schools (Louis Lumière National Film School and La Fémis), specializing in Sound."
+    },
+    {
+        "id": 3,
+        "logoUrl": "/icones_formation/femis.jpg",
+        "formationInfo": {
+            "title": "La Fémis Degree, Sound Department",
+            "school": "La Fémis (ENSMIS)",
+            "period": "2004–2008",
+            "graduation": "Level 7 (Masters degree equivalent)",
+            "location": "Paris"
+        },
+        "capacities": ["Sound Recording", "Sound Editing", "Mixing"],
+        "description": "A prestigious public film school with a strong focus on hands-on practice. Alongside technical knowledge, I developed teamwork skills and creative autonomy."
+    },
+    {
+        "id": 4,
+        "logoUrl": "/icones_formation/open_classrooms.png",
+        "formationInfo": {
+            "title": "Web Developer",
+            "school": "OpenClassrooms",
+            "period": "2025",
+            "graduation": "Level 5 (2-year university degree)",
+            "location": "Paris (Remote)"
+        },
+        "capacities": ["React", "JavaScript", "TypeScript", "Node.js", "Express"],
+        "description": "Web developer training focused on learning frontend development with React and backend development with Node.js and Express."
+    }
+]

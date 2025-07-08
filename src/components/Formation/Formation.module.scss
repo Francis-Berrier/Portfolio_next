@@ -1,0 +1,52 @@
+@import "../../styles/utils/mixins";
+@import "../../styles/utils/variables";
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px; 
+    background-color: $card-bgcolor;
+    border: 1px solid $border-color;
+    box-sizing: border-box;
+    
+    @include respond-to("tablet") {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+.entete {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 25px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    
+    @include respond-to("tablet") {
+        column-gap: 20px;
+    }
+}
+.logo {
+    width: 80px;
+
+    @include respond-to("tablet") {
+        width: 60px;
+    }
+}
+
+.text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    font-size: 18px;
+
+}
+

@@ -1,0 +1,147 @@
+{
+    "home": {
+        "title": "Francis Berrier",
+        "subtitle": "Développeur Web",
+        "introText": "Après une première carrière dans le cinéma, je suis un jeune développeur web, avide de découvrir de nouveaux projets et défis avec vous. Faisons connaissance!",
+        "buttonContact": "Contact",
+        "buttonGit": "Mon Github",
+        "buttonCV": "Téléchargez mon CV"
+    },
+    "homeSkills": {
+        "entete": "Compétences",
+        "title": "Mes technologies préférées:",
+        "cards": [
+            {
+                "title": "React",
+                "logoUrl": "/abilities_logo/react_logo.svg",
+                "text": "Pour la création de sites et d'applis web réactives et dynamiques, avec React et Next.js, permettant de combiner un rendu serveur des parties statiques pour des performances optimales et la flexibilité du rendu client pour les parties dynamiques."
+            },
+            {
+                "title": "Sass",
+                "logoUrl": "/abilities_logo/sass_logo.svg",
+                "text": "Pour une gestion modulaire et flexible des styles, permettant une structure claire et réutilisable du code, permettant une gestion claire du CSS dans des projets complexes."
+            },  
+            {
+                "title": "Express.js",
+                "logoUrl": "/abilities_logo/expressjs_logo.svg",
+                "text": "Pour créer des API sécurisées et robuste, compatibles avec de nombreux outils et bibliothèques permettant de développer rapidement des API maintenables et prêtes en production. "
+            }
+        ],
+        "linkButton": "Mes autres Compétences"
+    },
+    "homeContact": {
+        "entete": "Entrer en contact",
+        "title": "Ouvert aux nouveaux défis:",
+        "subtitle": "Faisons connaissance, et réalisons-les ensemble",
+        "text": "Si vous avez des questions, un emploi ou un projet à me proposer, n'hésitez pas à me contacter. J'ai hâte de découvrir de nouveaux horizons avec vous.",
+        "linkButton": "Contactez-moi"
+    },
+    "header": {
+        "home": "Francis Berrier",
+        "about": "A propos",
+        "contact": "Contact"
+    },
+    "footer": {
+
+    },
+    "aboutNav": {
+        "title": "A Propos",
+        "buttonCV": "Téléchargez mon CV",
+        "buttons": [
+             {   
+                "id": 1,
+                "name": "Biographie",
+                "page": "/about/bio"
+            },
+            {   
+                "id": 2,
+                "name": "Expériences",
+                "page": "/about/experiences"
+            },
+            {
+                "id": 3,
+                "name": "Formation",
+                "page": "/about/formation"
+            },
+            {   
+                "id": 4,
+                "name": "Compétences",
+                "page": "/about/abilities"
+            }
+        ]
+    },
+    "aboutBio": {
+        "bioInfos": {
+            "photoUrl": "/portrait_self.webp",
+            "name": "Francis Berrier",
+            "age": "41 ans",
+            "occupation": "Web Développeur Full-Stack"
+        },
+        "bioText": {
+            "bioTitle": "Quel est mon parcours?",
+            "bioContent": {
+                "paragraphe1": "Après près de vingt ans dans l’industrie du cinéma, j’ai eu la chance de participer à de nombreux films reconnus, occupant différents postes dans la création sonore. Cette carrière riche et exigeante m’a appris la rigueur, l’autonomie, le travail d’équipe et l’engagement total au service d’un projet artistique.",
+                "paragraphe2": "Animé par l’envie de relever de nouveaux défis et de trouver un meilleur équilibre avec ma vie familiale, j’ai entrepris une reconversion vers le développement web. D’abord autodidacte, j’ai rapidement renforcé mes bases grâce à la formation de Développeur Web d’OpenClassrooms, avec un double axe frontend (React, Sass) et backend (Node.js, Express).",
+                "paragraphe3": "Aujourd’hui, je mets cette même exigence et implication au service du code : curieux, persévérant et pleinement investi dans chaque projet, je continue d’apprendre chaque jour pour devenir un développeur fiable, adaptable et à l’écoute des besoins de l’équipe comme des utilisateurs."
+            }
+        }    
+    },
+    "aboutExperience": {
+        "cinema": {
+            "title":"Cinéma",
+            "text":"Lors de ma carrière dans le cinéma, j'ai évolué pendant plus de 15 ans aux différents postes de la fabrication du son pour un film, du tournage à la post-production. Ces expériences m'ont permis de développer rigueur et abnégation au sein d'une équipe , mais aussi autonomie et créativité au service d'un projet. Si vous souhaitez en savoir plus sur ces travaux, consultez ma filmographie",
+            "link": "/about/experiences/cinemaexperience",
+            "buttonName": "Filmographie"
+        },
+        "code": {
+            "title":"Développement Web",
+            "text":"Au cours de ma formation, je me suis aguérri en développant plusieurs projets d'apprentissages qui m'ont permis de gagner en expérience dans le développement web. Pour vous faire une idée de mes compétences consultez mes réalisations et le code disponible sur Github",
+            "link": "/about/experiences/codeexperience",
+            "buttonName": "Réalisations"
+        }
+    },
+    "aboutExperienceCinema": {
+        "buttonName": "Retour",
+        "link": "/about/experiences",
+        "title": "Expérience dans le Cinéma",
+        "introText": "Au cours de ma première carrière, j'ai eu la chance de travailler sur de nombreux films aux différents postes de la fabrication du son pour le Cinéma. Voici une sélection des films auxquels j'ai eu la chance de participer:",
+        "textFilmo": "Consultez ma filmographie complète",
+        "urlFilmo": "https://www.imdb.com/fr/name/nm2588640/?ref_=ttfc_fcr_cr"
+
+    },
+    "aboutExperienceCode": {
+        "buttonName": "Retour",
+        "link": "/about/experiences",
+        "title": "Expérience de Développement",
+        "introText": "Voici des projets que j'ai pu développer au cours des mois de formation."
+    },
+    "aboutFormation": {
+
+    },
+    "aboutCompetences": {
+
+    },
+    "filmCardData": {
+        "movieInfos": "Fiche du film",
+        "directedBy": "Réalisé par: ",
+        "starring": "Avec: ",
+        "occupation": "Fonction "
+
+    },
+    "contact": {
+        "title": "Entrons en Contact",
+        "introText": "Si vous avez des questions, un emploi ou un projet à me proposer, n'hésitez pas à me contacter. J'ai hâte de découvrir de nouveaux horizons avec vous.",
+        "labelName": "Nom",
+        "labelSurname": "Prénom",
+        "labelSociety": "Société",
+        "labelEmail": "Email",
+        "labelMessage": "Message",
+        "placeHolder": "Ecrivez votre Message",
+        "labelSubmit": "Envoyer",
+        "formMissedField": "Veuillez renseigner les champs requis (marqué de *) avant d'envoyer votre message",
+        "formWrongEmail": "Email incorrect",
+        "formSendEmail": "Email envoyé",
+        "formErrorEmail": "L'email n'a pas pu être envoyé"
+
+    }
+}

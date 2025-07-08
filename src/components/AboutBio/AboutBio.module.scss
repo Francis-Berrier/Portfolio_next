@@ -1,0 +1,113 @@
+@import "../../styles/utils/mixins";
+@import "../../styles/utils/variables";
+
+
+.aboutBioContainer {
+    display: flex;
+    justify-content: center;
+
+}
+.aboutBioCard {
+    width: 65vw;
+    margin: 50px 50px;
+    border-radius: 25px;
+    border: 1px solid $border-color;
+    background-color: #14183a4f;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    @include respond-to("tablet"){
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+    }
+
+    @include respond-to("mobile"){
+       background-color: $mobile-card-bgcolor;
+       border: 0px solid $border-color;
+       display: flex;
+       flex-direction: column;
+       margin:  0;
+    }
+}
+.infos {
+    margin: 50px 30px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+
+    @include respond-to("tablet"){
+       margin: 30px;
+        padding: 0;
+    }
+}
+.photoContainer {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-bottom: 30px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 60px;
+        object-fit: cover;
+    }
+
+}
+.nameBio{
+    font-size: 18px;
+    font-weight: $middle-weight;
+
+}
+.ageBio {
+    font-size: 12px;
+    font-weight: $light-weight;
+    color: $border-color;
+}
+.occupationBio {
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 40px;
+    font-size: 16px;
+    font-weight: $heavy-weight;
+    color: $border-color;
+    box-sizing: border-box;
+
+    @include respond-to("mobile"){
+        margin-top: 20px;
+        padding: 0 30px;
+      
+    }
+}
+.textBio {
+    margin: 50px 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    border-left: 1px solid $border-color;
+    font-size: 18px;
+
+    @include respond-to("tablet"){
+        align-items: center;
+        margin: 0 30px;
+        padding: 30px 0;
+        border-left: 0px solid $border-color;
+        border-top: 1px solid $border-color;
+       
+    }
+
+}
+.titleTextBio{
+    font-size: 20px;
+    font-weight: $heavy-weight;
+}
+.contentTextBio {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}

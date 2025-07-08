@@ -1,0 +1,25 @@
+@import "../../styles/utils/mixins";
+@import "../../styles/utils/variables";
+
+.button {
+    width: fit-content;
+    padding: 15px 25px;
+    border-radius: 20px;
+    color: $third-color;
+    font-weight: $heavy-weight;
+    font-size: 14px;
+    border: 1px solid $primary-color;
+    background-color: $button-clr;
+    cursor: pointer;
+
+    @include respond-to("mobile"){
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+
+    &:hover{
+        background-color: $button-hover;
+        color: $primary-color;
+    }
+}

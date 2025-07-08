@@ -1,0 +1,77 @@
+@import "../../styles/utils/mixins";
+@import "../../styles/utils/variables";
+
+
+.backButton {
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 30px 0 0;
+
+    @include respond-to("mobile"){
+        margin: 30px;
+    }
+}
+.experiencesContainer {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+
+    @include respond-to("mobile"){
+        margin: 20px 0 30px 0;  
+    }
+}
+.introduction {
+    width: 100%;
+
+}
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: $super-heavy-weight;
+    color: $secondary-color;
+
+    @include respond-to("mobile"){
+        font-size: 24px;
+        padding: 0 20px;
+    }
+}
+.introText {
+    width: 80%;
+    margin: 70px 0  20px 0;
+    font-size: 18px;
+
+    @include respond-to("mobile"){
+        margin: 30px 20px 0 0;
+        padding: 0 30px;
+    }
+}
+.linkFilmo {
+    margin: auto;
+    cursor: pointer;
+    width: fit-content;
+    font-weight: $heavy-weight;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: $fifth-color;
+    box-sizing: border-box;
+    &:hover {
+        background-color: $secondary-color;
+    }
+}
+.linkFilmoContainer {
+    padding-top: 30px;
+
+    @include respond-to("mobile"){
+        padding-top: 15px;
+    }
+}
+.filmo {
+    margin: auto ;
+
+    @include respond-to("mobile"){
+        margin: 20px 0 0 0;
+    }
+
+}

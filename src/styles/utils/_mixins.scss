@@ -1,0 +1,38 @@
+@import "./variables";
+
+@mixin white-titles($font-size, $font-weight) {
+    color: $fourth-color;
+    font-size: $font-size;
+    font-weight: $font-weight;
+}
+
+@mixin red-titles($font-size, $font-weight) {
+    color: $secondary-color;
+    font-size: $font-size;
+    font-weight: $font-weight;
+}
+
+@mixin page-base{
+    max-width: 1440px;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+    @include respond-to("tablet"){
+        padding: 50px 30px;
+    }
+    @include respond-to("mobile"){
+        padding: 27px 20px;
+    }
+}
+
+@mixin respond-to($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint){
+        @media(max-width: #{map-get($breakpoints, $breakpoint)}) {
+            @content;
+        }
+    }
+}

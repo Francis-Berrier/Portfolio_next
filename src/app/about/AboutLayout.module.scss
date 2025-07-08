@@ -1,0 +1,39 @@
+@import "../../styles/utils/mixins";
+@import "../../styles/utils/variables";
+
+.aboutContainer {
+    margin-top: 10vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    position: relative;
+
+    @include respond-to("tablet"){
+        display: flex;
+        flex-direction: column;
+    }   
+}
+.aboutNav {
+    box-sizing: border-box;
+    position:sticky;
+    height: 100%;
+    top:10vh;
+    z-index: 10;
+
+    @include respond-to("tablet"){
+        top: 9.9vh;
+        height:auto;
+        width: 100%;
+    }    
+}
+.aboutMain {
+    flex: 1;
+    margin-left: 15px;
+    height:auto;
+    overflow-y: hidden;
+
+    @include respond-to("mobile"){
+        margin-left: 0;
+        padding: 0 0 0 0;
+    }  
+}

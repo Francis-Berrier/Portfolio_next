@@ -1,0 +1,342 @@
+[   
+    
+    {
+        "id": 1,
+        "imdbUrl": "https://www.imdb.com/fr/title/tt1314237/?ref_=nm_flmg_job_1_cdt_c_61",
+        "imgFilmUrl": "/films/les_beaux_gosses.jpg",
+        "title": "The French Kissers",
+        "year": 2009,
+        "director": "Riad Sattouf",
+        "actors": [
+            "Vincent Lacoste",
+            "Emmanuelle Devos",
+            "Noémie Lvovsky"
+        ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 2,
+        "imdbUrl": "https://www.imdb.com/fr/title/tt1452503/?ref_=nm_flmg_job_1_cdt_t_59",
+        "imgFilmUrl": "/films/bulles_de_vian.jpg",
+        "title": "Bulles de Vian",
+        "year": 2009,
+        "director": "Marc Hollogne",
+        "actors": [
+            "Jean-Pierre Marielle",
+            "Jean-Pierre Daroussin",
+            "Iggy Pop"
+        ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 3,
+        "imdbUrl": "https://www.imdb.com/fr/title/tt1789992/?ref_=nm_flmg_job_1_cdt_t_48",
+        "imgFilmUrl": "/films/a_vos_caisses.jpg",
+        "title": "A vos Caisses",
+        "year": 2010,
+        "director": "Pierre Isoard",
+        "actors": [
+            "Léa Drucker",
+            "Arnaud Ducret",
+            "Julia Dorval"
+        ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 4,
+        "imdbUrl": "https://www.imdb.com/fr/title/tt1858582/?ref_=nm_flmg_job_1_cdt_t_47",
+        "imgFilmUrl": "/films/un_monde_sans_femmes.jpg",
+        "title": "A World without women",
+        "year": 2011,
+        "director": "Guillaume Brac",
+        "actors": [
+            "Laure Calamy",
+            "Vincent Macaigne",
+            "Laurent Papot"
+        ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 5,
+        "imdbUrl": "https://www.imdb.com/fr/title/tt2339351/?ref_=fn_all_ttl_1",
+        "imgFilmUrl": "/films/alyah.jpg",
+        "title": "Aliyah",
+        "year": 2012,
+        "director": "Elie Wajeman",
+        "actors": [
+            "Adèle Haenel",
+            "Pio Marmaï",
+            "Sarah Lepicard"
+        ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 6,
+        "imdbUrl": "https://www.imdb.com/fr/title/tt2397487/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_l%27air%2520de%2520rien",
+        "imgFilmUrl": "/films/air_de_rien.jpg" ,
+        "title": "L'Air de Rien",
+        "year": 2012,
+        "director": "Grégory Magne et Stéphane Viard",
+        "actors": [
+            "Grégory Montel",
+            "Michel Delpech",
+            "Miossec"
+        ] ,
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 7,
+        "imdbUrl": "https://www.imdb.com/fr/title/tt2836464/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_la%2520braconne",
+        "imgFilmUrl": "/films/la_braconne.jpg",
+        "title": "La Braconne",
+        "year": 2013,
+        "director": "Samuel Rondière",
+        "actors": [
+            "Patrick Chesnay",
+            "Rachid Yous",
+            "Audrey Bastien"
+         ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 8,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt3828466/?ref_=nm_flmg_job_1_cdt_c_24",
+        "imgFilmUrl": "/films/tonnerre.jpg",
+        "title": "Tonnerre",
+        "year": 2013,
+        "director": "Guillaume Brac",
+        "actors": [
+            "Vincent Macaigne",
+            "Solène Rigot",
+            "Bernard Ménez"
+        ],
+        "occupation": "Boom Operator"
+    },
+    
+    {
+        "id": 9,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt3828466/?ref_=nm_flmg_job_1_cdt_c_24",
+        "imgFilmUrl": "/films/terre_battue.jpg",
+        "title": "40-Love",
+        "year": 2014,
+        "director": "Stéphane Demoustier",
+        "actors": [
+            "Olivier Gourmet",
+            "Vimala Pons",
+            "Valeria Bruni-Tedeschi"
+        ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 10,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt3660370/?ref_=nm_flmg_job_1_cdt_t_26",
+        "imgFilmUrl": "/films/party_girl.jpg",
+        "title": "Party Girl",
+        "year": 2014,
+        "director": "Marie Amachoukeli, Claire Burger, Samuel Theis",
+        "actors": [
+            "Angelique Litzenburger",
+            "Joseph Bour",
+            "Mario Theis"
+        ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 11,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt4621060/?ref_=nm_flmg_job_1_cdt_t_22",
+        "imgFilmUrl": "/films/la_terre_penche.jpg",
+        "title": "Turning Tides",
+        "year": 2015,
+        "director": "Christelle Lheureux",
+        "actors": [
+            "Laetitia Spigarelli",
+            "Damien Bonnard",
+            "Thomas Blanchard"
+        ],
+        "occupation": "Sound Editor"
+    },
+    {
+        "id": 12,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt3757648/?ref_=nm_flmg_job_1_cdt_c_20",
+        "imgFilmUrl": "/films/tempete.jpg",
+        "title": "Land Legs",
+        "year": 2015,
+        "director": "Samuel Collardey",
+        "actors": [
+            "Dominique Leborne",
+            "Mailys Leborne",
+            "Mattéo Leborne"
+        ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 13,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt3850740/?ref_=nm_flmg_job_1_cdt_t_19",
+        "imgFilmUrl": "/films/demons.jpg",
+        "title": "Démons",
+        "year": 2015,
+        "director": "Marcial Di Fonzo Bo",
+        "actors": [
+            "Marina Foïs",
+            "Romain Duris",
+            "Anaïs Demoustier"
+        ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 14,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt5196472/?ref_=nm_flmg_job_1_cdt_t_15",
+        "imgFilmUrl": "/films/compte_tes_blessures.webp",
+        "title": "A Taste of Ink",
+        "year": 2016,
+        "director": "Morgan Simon",
+        "actors": [
+            "Kevin Azaïs",
+            "Mona Chokri",
+            "Nathan Wilcocks"
+        ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 15,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt5378294/?ref_=nm_flmg_job_1_cdt_t_13",
+        "imgFilmUrl": "/films/des_plans_sur_la_comete.jpg",
+        "title": "Des Plans sur la Comète",
+        "year": 2017,
+        "director": "Guilhem Amesland",
+        "actors": [
+            "Philippe Rebbot",
+            "Vincent Macaigne",
+            "Hafsia Herzi"
+        ],
+        "occupation": "Sound Editor"
+    },
+    {
+        "id": 16,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt5378294/?ref_=nm_flmg_job_1_cdt_t_13",
+        "imgFilmUrl": "/films/une_annee_polaire.jpg",
+        "title": "A Polar Year",
+        "year": 2018,
+        "director": "Samuel Collardey",
+        "actors": [
+            "Anders Hvidegaard",
+            "Asser Boassen",
+            "Thomasine Johnatansen"
+        ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 17,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt7766144/?ref_=nm_flmg_job_1_cdt_t_11",
+        "imgFilmUrl": "/films/allons_enfants.jpg",
+        "title": "Cléo and Paul",
+        "year": 2018,
+        "director": "Stéphane Demoustier",
+        "actors": [
+            "Vimala Pons",
+            "Elsa Wolliaston",
+            "Cléo Demoustier"
+        ],
+        "occupation": "Sound Mixer, Sound Editor"
+    },
+    {
+        "id": 18,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt8212614/?ref_=nm_flmg_job_1_cdt_t_10",
+        "imgFilmUrl": "/films/roulez_jeunesse.jpg",
+        "title": "The Troubleshooter",
+        "year": 2018,
+        "director": "Julien Guetta",
+        "actors": [
+            "Eric Judor",
+            "Laure Calamy",
+            "Louise Labèque"
+        ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 19,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt7766886/?ref_=nm_flmg_job_1_cdt_t_8",
+        "imgFilmUrl": "/films/fille_au_bracelet.jpg",
+        "title": "The Girl With A Bracelet",
+        "year": 2019,
+        "director": "Stéphane Demoustier",
+        "actors": [
+            "Melissa Guers",
+            "Rochdy Zem",
+            "Chiara Mastroianni"
+        ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 20,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt9151382/?ref_=nm_flmg_job_1_cdt_t_7",
+        "imgFilmUrl": "/films/je_voudrais_que_quelquun_m_attende_quelque_part.jpg",
+        "title": "I Wish Someone Were Waiting for Me Somewhere",
+        "year": 2019,
+        "director": "Arnaud Viard",
+        "actors": [
+            "Jean-Paul Rouve",
+            "Alice Taglioni",
+            "Benjamin Lavernhe"
+        ],
+        "occupation": "Boom Operator"
+    },
+    {
+        "id": 21,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt11748354/?ref_=nm_flmg_job_1_cdt_t_6",
+        "imgFilmUrl": "/films/les_parfums.jpg",
+        "title": "Perfumes",
+        "year": 2019,
+        "director": "Grégory Magne",
+        "actors": [
+            "Emmanuelle Devos",
+            "Grégory Montel",
+            "Gustave Kervern"
+        ],
+        "occupation": "Sound Mixer"
+    },
+    {
+        "id": 22,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt20224464/?ref_=nm_flmg_job_1_cdt_t_4",
+        "imgFilmUrl": "/films/noah_le_sens_de_la_gagne.webp",
+        "title": "Noah, le Sens de la Gagne",
+        "year": 2022,
+        "director": "Vladimir de Fontenay",
+        "actors": [
+            "Yannick Noah",
+            "Guy Forget",
+            "Cédric Pioline"
+        ],
+        "occupation": "Sound Mixer, Sound Editor"
+    },
+    {
+        "id": 23,
+        "imdbUrl":"http://www.annee0.com/_/dekalog/",
+        "imgFilmUrl": "/films/dekalog.jpg",
+        "title": "Dekalog",
+        "year": 2022,
+        "director": "Julien Gosselin",
+        "actors": [
+            "Elan Ben Ali",
+            "Léa Luce Busato",
+            "Achille Reggiani"
+        ],
+        "occupation": "Sound Mixer, Sound Editor, Rerecording Mixer"
+    },
+    {
+        "id": 24,
+        "imdbUrl":"https://www.imdb.com/fr/title/tt19121072/?ref_=nm_flmg_job_1_cdt_t_2",
+        "imgFilmUrl": "/films/borgo.jpg",
+        "title": "Borgo",
+        "year": 2023,
+        "director": "Stéphane Demoustier",
+        "actors": [
+            "Hafsia Herzi",
+            "Michel Fau",
+            "Louis Memmi"
+        ],
+        "occupation": "Sound Mixer"
+    }
+    
+    
+]

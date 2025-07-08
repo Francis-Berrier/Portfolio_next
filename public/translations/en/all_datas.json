@@ -1,0 +1,734 @@
+{
+    "abilities": [
+        {
+        "id": 1,
+        "imgUrl": "/abilities_logo/react_logo.svg",
+        "name": "React",
+        "description": "React is a JavaScript library developed by Meta for building interactive, component-based user interfaces efficiently.",
+        "precentProgress": 80
+        },
+        {
+        "id": 2,
+        "imgUrl": "/abilities_logo/html_logo.svg",
+        "name": "HTML 5",
+        "description": "HTML5 is the standard language for structuring web content. It introduces semantic tags, video, audio, and better accessibility.",
+        "precentProgress": 90
+        },
+        {
+        "id": 3,
+        "imgUrl": "/abilities_logo/css_logo.svg",
+        "name": "CSS 3",
+        "description": "CSS3 styles web pages with animations, transitions, and advanced layouts like Flexbox and Grid.",
+        "precentProgress": 90
+        },
+        {
+        "id": 4,
+        "imgUrl": "/abilities_logo/javascript_logo.svg",
+        "name": "Javascript",
+        "description": " JavaScript is a programming language that makes web pages interactive: animations, dynamic forms, and live updates.",
+        "precentProgress": 90
+        },
+        {
+        "id": 5,
+        "imgUrl": "/abilities_logo/nodejs_logo.svg",
+        "name": "Node.js",
+        "description": "Node.js is a server-side JavaScript runtime based on V8, ideal for fast, scalable web applications.",
+        "precentProgress": 60
+        },
+        {
+        "id": 6,
+        "imgUrl": "/abilities_logo/expressjs_logo.svg",
+        "name": "Express.js",
+        "description": "Express.js is a minimalist Node.js framework designed to build APIs and web apps quickly.",
+        "precentProgress": 70
+        },
+        {
+        "id": 7,
+        "imgUrl": "/abilities_logo/ror_logo.svg",
+        "name": "Ruby on Rails",
+        "description": "Ruby on Rails is a Ruby-based web framework emphasizing convention over configuration for rapid development.",
+        "precentProgress": 20
+        },
+        {
+        "id": 8,
+        "imgUrl": "/abilities_logo/nestjs_logo.svg",
+        "name": "NestJs",
+        "description": "NestJS is a structured Node.js framework inspired by Angular, used to build robust TypeScript APIs.",
+        "precentProgress": 10
+        },
+        {
+        "id": 9,
+        "imgUrl": "/abilities_logo/git_logo.svg",
+        "name": "Git",
+        "description": "Git is a distributed version control system that tracks and manages changes in source code.",
+        "precentProgress": 75
+        },
+        {
+        "id": 10,
+        "imgUrl": "/abilities_logo/github_logo.svg",
+        "name": "GitHub",
+        "description": "GitHub is a Git-based collaborative platform for hosting, sharing, and versioning code online.",
+        "precentProgress": 75
+        },
+        {
+        "id": 11,
+        "imgUrl": "/abilities_logo/vscode_logo.svg",
+        "name": "Visual Studio Code",
+        "description": "VS Code is a lightweight, extensible, cross-platform code editor ideal for web development and supporting many languages.",
+        "precentProgress": 75
+        },
+        {
+        "id": 12,
+        "imgUrl": "/abilities_logo/typescript_logo.svg",
+        "name": "TypeScript",
+        "description": "TypeScript is a superset of JavaScript that adds static typing for better readability, maintainability, and compile-time error checking.",
+        "precentProgress": 70
+        },
+        {
+        "id": 13,
+        "imgUrl": "/abilities_logo/postgre_logo.svg",
+        "name": "PostGreSQL",
+        "description": "PostgreSQL is a powerful, reliable, open-source relational database system that follows SQL standards.",
+        "precentProgress": 60
+        },
+        {
+        "id": 14,
+        "imgUrl": "/abilities_logo/mysql_logo.svg",
+        "name": "MySQL",
+        "description": "MySQL is a widely used relational database management system, suitable for both simple and complex web applications.",
+        "precentProgress": 60
+        },
+        {
+        "id": 15,
+        "imgUrl": "/abilities_logo/mongodb_logo.svg",
+        "name": "MongoDB",
+        "description": "MongoDB is a document-oriented NoSQL database, flexible and ideal for unstructured data and scalable apps.",
+        "precentProgress": 50
+        },
+        {
+        "id": 16,
+        "imgUrl": "/abilities_logo/nextjs_logo.svg",
+        "name": "Next.js",
+        "description": "Next.js is a React framework for full-stack web development, supporting server-side rendering (SSR) and static site generation (SSG).",
+        "precentProgress": 20
+        },
+        {
+        "id": 17,
+        "imgUrl": "/abilities_logo/apple_logo.svg",
+        "name": "MacOS",
+        "description": "MacOS is Apple’s operating system for its computers, known for stability, security, and a clean interface.",
+        "precentProgress": 50
+        },
+        {
+        "id": 18,
+        "imgUrl": "/abilities_logo/windows_logo.svg",
+        "name": "Windows",
+        "description": "Windows is Microsoft’s operating system, widely used in personal, professional, and educational environments."
+        },
+        {
+        "id": 19,
+        "imgUrl": "/abilities_logo/sass_logo.svg",
+        "name": "Sass",
+        "description": "Sass is a CSS preprocessor that enables variables, loops, and functions for more maintainable styling code.",
+        "precentProgress": 80
+        },
+        {
+        "id": 20,
+        "imgUrl": "/abilities_logo/postman_logo.svg",
+        "name": "Postman",
+        "description": "Postman is an API testing tool that simplifies HTTP requests, documentation, and automated tests.",
+        "precentProgress": 40
+        },
+        {
+        "id": 21,
+        "imgUrl": "/abilities_logo/protools_logo.svg",
+        "name": "Pro Tools",
+        "description": " Pro Tools is a professional audio production software used in studios for recording, editing, and advanced mixing.",
+        "precentProgress": 95
+        }
+    ],
+    "code": [
+        {
+            "id": 1,
+            "name": "Interior architect's website",
+            "codeUrl": "https://github.com/Francis-Berrier/Site-Sophie-Bluel.git",
+            "codeImgUrl": "/pic_projets/bluel_capture.webp",
+            "description": "As part of an exercise to develop the frontend of a website using HTML, JS, and CSS without any library or framework, I chose to structure it with a pure JS MVC architecture to build a client-rendered one-page site. Note that the backend was not developed by me.",
+            "langages": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+            "id": 2,
+            "name": "Kasa real estate agency website",
+            "codeUrl": "https://github.com/Francis-Berrier/kasa.git",
+            "codeImgUrl": "/pic_projets/kasa_capture.webp",
+            "description": "The task was to develop the website’s frontend based on a provided mockup using React. In addition, I implemented centralized error handling and separated content management to make the project ready for potential translation.",
+            "langages": ["React", "Sass"]
+        },
+        {
+            "id": 3,
+            "name": "Backend of a book rating website",
+            "codeUrl": "https://github.com/Francis-Berrier/VieuxGrimoireBackend.git",
+            "codeImgUrl": "/pic_projets/grimoire_capture.webp",
+            "description": "For this project, we were asked to develop the backend of a book rating website using Node.js, Express, and a MongoDB database. I focused on bringing it close to a production-ready state, with a modular structure and attention to security. I also implemented error monitoring through a logging system. Additionally, to enhance my learning, I developed an alternative version on a separate Git branch using PostgreSQL and Prisma.",
+            "langages": ["Node.Js", "Express.js", "MongoDB", "PostGreSQL"]
+        },
+        {
+            "id": 4,
+            "name": "Portfolio Francis Berrier",
+            "codeUrl": "https://github.com/Francis-Berrier/PortFolio.git",
+            "codeImgUrl": "/pic_projets/portfolio_capture.webp",
+            "description": "Portfolio présentant mon parcours et mes capacités ",
+            "langages": ["React", "TypeScript", "Sass", "Next.Js"]
+        },
+        {
+            "id": 5,
+            "name": "In progress: Table tennis tournament management application",
+            "codeUrl": "",
+            "codeImgUrl": "/pic_projets/tt_capture.webp",
+            "description": "Desktop application designed to improve the management of table tennis tournaments within clubs, optimizing result entry and table assignments for organizers, and enhancing match visibility for players.",
+            "langages": ["React", "TypeScript", "Sass", "Next.Js", "Node.Js", "Express.js", "SQLite", "Electron"]
+        }
+    ],
+    "datas": {
+        "home": {
+        "title": "Francis Berrier",
+        "subtitle": "Web Developper",
+        "introText": "After years working on movie industry, I am now a fresh web developper, eager to discover new projects en challenges with you. Let's get acquainted!",
+        "buttonContact": "Contact",
+        "buttonGit": "My Github",
+        "buttonCV": "Download my resumee"
+        },
+        "homeSkills": {
+        "entete": "Skills",
+        "title": "My favorite technologies:",
+        "cards": 
+            [
+                {
+                "title": "React",
+                "logoUrl": "/abilities_logo/react_logo.svg",
+                "text": "For building reactive and dynamic websites and web applications using React and Next.js, combining server-side rendering for optimal performance with client-side rendering for dynamic parts."
+                },
+                {
+                "title": "Sass",
+                "logoUrl": "/abilities_logo/sass_logo.svg",
+                "text": "For modular and flexible style management, enabling a clear and reusable code structure that simplifies CSS handling in complex projects."
+                },
+                {
+                "title": "Express.js",
+                "logoUrl": "/abilities_logo/expressjs_logo.svg",
+                "text": "To create secure and robust APIs, compatible with many tools and libraries, allowing fast development of maintainable and production-ready APIs."
+                }
+            ],
+            "linkButton": "My other skills"
+        },
+        "homeContact": {
+            "entete": "Let's Connect",
+            "title": "Open to New Challenges:",
+            "subtitle": "Let's connect and explore how we can achieve your goals together",
+            "text": "If you have any questions, a job offer, or a project to discuss, feel free to get in touch. I'm excited to explore new opportunities with you.",
+            "linkButton": "Contact Me"
+        },
+        "header": {
+            "home": "Francis Berrier",
+            "about": "About",
+            "contact": "Contact"
+
+        },
+        "footer": {
+
+        },
+        "aboutNav": {
+            "title": "About Me",
+            "buttonCV": "Download my resumee",
+            "buttons":[
+                {
+                    "id": 1,
+                    "name": "Biography",
+                    "page": "/about/bio"
+                },
+                {   
+                    "id": 2,
+                    "name": "Experiences",
+                    "page": "/about/experiences"
+                },
+                {   
+                    "id": 3,
+                    "name": "Education",
+                    "page": "/about/formation"
+                },
+                {
+                    "id": 4,
+                    "name": "Capacities",
+                    "page": "/about/abilities"
+                }
+                
+            ]
+        },
+        "aboutBio": {
+            "bioInfos": {
+                "photoUrl": "/portrait_self.webp",
+                "name": "Francis Berrier",
+                "age": "41 years old",
+                "occupation": "Full-Stack Web Developer"
+            },
+            "bioText": {
+                "bioTitle": "What is my background?",
+                "bioContent": {
+                    "paragraphe1": "After nearly twenty years in the film industry, I had the opportunity to work on many well-known movies, holding various positions in sound design. This rich and demanding career taught me discipline, autonomy, teamwork, and full commitment to artistic projects.",
+                    "paragraphe2": "Driven by the desire to take on new challenges and find a better balance with family life, I started a career shift into web development. Initially self-taught, I quickly solidified my skills through the OpenClassrooms Web Developer training program, which covered both frontend (React, Sass) and backend (Node.js, Express) technologies.",
+                    "paragraphe3": "Today, I bring the same high standards and dedication to my code: curious, persistent, and fully invested in every project, I keep learning every day to become a reliable, adaptable developer who listens closely to both the team and the users."
+                }
+            }
+        },
+        "aboutExperience": {
+            "cinema": {
+                "title":"Cinema",
+                "text":"During my career in the film industry, I worked for over 15 years in various roles involved in the sound production of a film, from shooting to post-production. These experiences allowed me to develop discipline and dedication within a team, as well as autonomy and creativity in service of a project. If you’d like to learn more about this work, feel free to explore my filmography.",
+                "link": "/about/experiences/cinemaexperience",
+                "buttonName": "Filmography"
+            },
+            "code": {
+                "title":"Web Developpement",
+                "text":"During my training, I gained experience by developing several learning projects that helped me strengthen my web development skills. To get a better idea of my abilities, check out my work and the code available on GitHub.",
+                "link": "/about/experiences/codeexperience",
+                "buttonName": "Dev Projects"
+            }
+        },
+        "aboutExperienceCinema": {
+            "buttonName": "Back",
+            "link": "/about/experiences",
+            "title": "Career Background ",
+            "introText": "On my my first career, I was lucky to work on many movies in various sound-related jobs. Here is a selection of movies I'm proud to have worked on:",
+            "textFilmo": "View my full filmography",
+            "urlFilmo": "https://www.imdb.com/fr/name/nm2588640/?ref_=ttfc_fcr_cr"
+
+        },
+        "aboutExperienceCode": { 
+            "buttonName": "Back",
+            "link": "/about/experiences",
+            "title": "Development Experience",
+            "introText": "Here are some projects I developed during my months of training."
+        },
+        "aboutFormation": "Education",
+        "aboutCompetences": {
+
+        },
+        "filmCardData": {
+            "movieInfos": "Movie Details",
+            "directedBy": "Directed By: ",
+            "starring": "Starring: ",
+            "occupation": "Occupation: "
+        },
+        "contact": {
+            "title": "Contact Me",
+            "introText": "For your questions, job offer or project you want to propose, contact me. I'm looking forward to new horizons with you.",
+            "labelName": "Name",
+            "labelSurname": "Surname",
+            "labelSociety": "Société",
+            "labelEmail": "Email",
+            "labelMessage": "Message",
+            "placeHolder": "Type your Message",
+            "labelSubmit": "Send",
+            "formMissedField": "Please fill in the required fields (marked with *) before sending your message.",
+            "formWrongEmail": "Wrong Email",
+            "formSendEmail": "Email send",
+            "formErrorEmail": "Impossible to send Email"
+
+        }
+    },
+    "films": [    
+        {
+            "id": 1,
+            "imdbUrl": "https://www.imdb.com/fr/title/tt1314237/?ref_=nm_flmg_job_1_cdt_c_61",
+            "imgFilmUrl": "/films/les_beaux_gosses.jpg",
+            "title": "The French Kissers",
+            "year": 2009,
+            "director": "Riad Sattouf",
+            "actors": [
+                "Vincent Lacoste",
+                "Emmanuelle Devos",
+                "Noémie Lvovsky"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 2,
+            "imdbUrl": "https://www.imdb.com/fr/title/tt1452503/?ref_=nm_flmg_job_1_cdt_t_59",
+            "imgFilmUrl": "/films/bulles_de_vian.jpg",
+            "title": "Bulles de Vian",
+            "year": 2009,
+            "director": "Marc Hollogne",
+            "actors": [
+                "Jean-Pierre Marielle",
+                "Jean-Pierre Daroussin",
+                "Iggy Pop"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 3,
+            "imdbUrl": "https://www.imdb.com/fr/title/tt1789992/?ref_=nm_flmg_job_1_cdt_t_48",
+            "imgFilmUrl": "/films/a_vos_caisses.jpg",
+            "title": "A vos Caisses",
+            "year": 2010,
+            "director": "Pierre Isoard",
+            "actors": [
+                "Léa Drucker",
+                "Arnaud Ducret",
+                "Julia Dorval"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 4,
+            "imdbUrl": "https://www.imdb.com/fr/title/tt1858582/?ref_=nm_flmg_job_1_cdt_t_47",
+            "imgFilmUrl": "/films/un_monde_sans_femmes.jpg",
+            "title": "A World without women",
+            "year": 2011,
+            "director": "Guillaume Brac",
+            "actors": [
+                "Laure Calamy",
+                "Vincent Macaigne",
+                "Laurent Papot"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 5,
+            "imdbUrl": "https://www.imdb.com/fr/title/tt2339351/?ref_=fn_all_ttl_1",
+            "imgFilmUrl": "/films/alyah.jpg",
+            "title": "Aliyah",
+            "year": 2012,
+            "director": "Elie Wajeman",
+            "actors": [
+                "Adèle Haenel",
+                "Pio Marmaï",
+                "Sarah Lepicard"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 6,
+            "imdbUrl": "https://www.imdb.com/fr/title/tt2397487/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_l%27air%2520de%2520rien",
+            "imgFilmUrl": "/films/air_de_rien.jpg" ,
+            "title": "L'Air de Rien",
+            "year": 2012,
+            "director": "Grégory Magne et Stéphane Viard",
+            "actors": [
+                "Grégory Montel",
+                "Michel Delpech",
+                "Miossec"
+            ] ,
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 7,
+            "imdbUrl": "https://www.imdb.com/fr/title/tt2836464/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_la%2520braconne",
+            "imgFilmUrl": "/films/la_braconne.jpg",
+            "title": "La Braconne",
+            "year": 2013,
+            "director": "Samuel Rondière",
+            "actors": [
+                "Patrick Chesnay",
+                "Rachid Yous",
+                "Audrey Bastien"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 8,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt3828466/?ref_=nm_flmg_job_1_cdt_c_24",
+            "imgFilmUrl": "/films/tonnerre.jpg",
+            "title": "Tonnerre",
+            "year": 2013,
+            "director": "Guillaume Brac",
+            "actors": [
+                "Vincent Macaigne",
+                "Solène Rigot",
+                "Bernard Ménez"
+            ],
+            "occupation": "Boom Operator"
+        },
+        
+        {
+            "id": 9,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt3828466/?ref_=nm_flmg_job_1_cdt_c_24",
+            "imgFilmUrl": "/films/terre_battue.jpg",
+            "title": "40-Love",
+            "year": 2014,
+            "director": "Stéphane Demoustier",
+            "actors": [
+                "Olivier Gourmet",
+                "Vimala Pons",
+                "Valeria Bruni-Tedeschi"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 10,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt3660370/?ref_=nm_flmg_job_1_cdt_t_26",
+            "imgFilmUrl": "/films/party_girl.jpg",
+            "title": "Party Girl",
+            "year": 2014,
+            "director": "Marie Amachoukeli, Claire Burger, Samuel Theis",
+            "actors": [
+                "Angelique Litzenburger",
+                "Joseph Bour",
+                "Mario Theis"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 11,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt4621060/?ref_=nm_flmg_job_1_cdt_t_22",
+            "imgFilmUrl": "/films/la_terre_penche.jpg",
+            "title": "Turning Tides",
+            "year": 2015,
+            "director": "Christelle Lheureux",
+            "actors": [
+                "Laetitia Spigarelli",
+                "Damien Bonnard",
+                "Thomas Blanchard"
+            ],
+            "occupation": "Sound Editor"
+        },
+        {
+            "id": 12,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt3757648/?ref_=nm_flmg_job_1_cdt_c_20",
+            "imgFilmUrl": "/films/tempete.jpg",
+            "title": "Land Legs",
+            "year": 2015,
+            "director": "Samuel Collardey",
+            "actors": [
+                "Dominique Leborne",
+                "Mailys Leborne",
+                "Mattéo Leborne"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 13,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt3850740/?ref_=nm_flmg_job_1_cdt_t_19",
+            "imgFilmUrl": "/films/demons.jpg",
+            "title": "Démons",
+            "year": 2015,
+            "director": "Marcial Di Fonzo Bo",
+            "actors": [
+                "Marina Foïs",
+                "Romain Duris",
+                "Anaïs Demoustier"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 14,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt5196472/?ref_=nm_flmg_job_1_cdt_t_15",
+            "imgFilmUrl": "/films/compte_tes_blessures.webp",
+            "title": "A Taste of Ink",
+            "year": 2016,
+            "director": "Morgan Simon",
+            "actors": [
+                "Kevin Azaïs",
+                "Mona Chokri",
+                "Nathan Wilcocks"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 15,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt5378294/?ref_=nm_flmg_job_1_cdt_t_13",
+            "imgFilmUrl": "/films/des_plans_sur_la_comete.jpg",
+            "title": "Des Plans sur la Comète",
+            "year": 2017,
+            "director": "Guilhem Amesland",
+            "actors": [
+                "Philippe Rebbot",
+                "Vincent Macaigne",
+                "Hafsia Herzi"
+            ],
+            "occupation": "Sound Editor"
+        },
+        {
+            "id": 16,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt5378294/?ref_=nm_flmg_job_1_cdt_t_13",
+            "imgFilmUrl": "/films/une_annee_polaire.jpg",
+            "title": "A Polar Year",
+            "year": 2018,
+            "director": "Samuel Collardey",
+            "actors": [
+                "Anders Hvidegaard",
+                "Asser Boassen",
+                "Thomasine Johnatansen"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 17,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt7766144/?ref_=nm_flmg_job_1_cdt_t_11",
+            "imgFilmUrl": "/films/allons_enfants.jpg",
+            "title": "Cléo and Paul",
+            "year": 2018,
+            "director": "Stéphane Demoustier",
+            "actors": [
+                "Vimala Pons",
+                "Elsa Wolliaston",
+                "Cléo Demoustier"
+            ],
+            "occupation": "Sound Mixer, Sound Editor"
+        },
+        {
+            "id": 18,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt8212614/?ref_=nm_flmg_job_1_cdt_t_10",
+            "imgFilmUrl": "/films/roulez_jeunesse.jpg",
+            "title": "The Troubleshooter",
+            "year": 2018,
+            "director": "Julien Guetta",
+            "actors": [
+                "Eric Judor",
+                "Laure Calamy",
+                "Louise Labèque"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 19,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt7766886/?ref_=nm_flmg_job_1_cdt_t_8",
+            "imgFilmUrl": "/films/fille_au_bracelet.jpg",
+            "title": "The Girl With A Bracelet",
+            "year": 2019,
+            "director": "Stéphane Demoustier",
+            "actors": [
+                "Melissa Guers",
+                "Rochdy Zem",
+                "Chiara Mastroianni"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 20,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt9151382/?ref_=nm_flmg_job_1_cdt_t_7",
+            "imgFilmUrl": "/films/je_voudrais_que_quelquun_m_attende_quelque_part.jpg",
+            "title": "I Wish Someone Were Waiting for Me Somewhere",
+            "year": 2019,
+            "director": "Arnaud Viard",
+            "actors": [
+                "Jean-Paul Rouve",
+                "Alice Taglioni",
+                "Benjamin Lavernhe"
+            ],
+            "occupation": "Boom Operator"
+        },
+        {
+            "id": 21,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt11748354/?ref_=nm_flmg_job_1_cdt_t_6",
+            "imgFilmUrl": "/films/les_parfums.jpg",
+            "title": "Perfumes",
+            "year": 2019,
+            "director": "Grégory Magne",
+            "actors": [
+                "Emmanuelle Devos",
+                "Grégory Montel",
+                "Gustave Kervern"
+            ],
+            "occupation": "Sound Mixer"
+        },
+        {
+            "id": 22,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt20224464/?ref_=nm_flmg_job_1_cdt_t_4",
+            "imgFilmUrl": "/films/noah_le_sens_de_la_gagne.webp",
+            "title": "Noah, le Sens de la Gagne",
+            "year": 2022,
+            "director": "Vladimir de Fontenay",
+            "actors": [
+                "Yannick Noah",
+                "Guy Forget",
+                "Cédric Pioline"
+            ],
+            "occupation": "Sound Mixer, Sound Editor"
+        },
+        {
+            "id": 23,
+            "imdbUrl":"http://www.annee0.com/_/dekalog/",
+            "imgFilmUrl": "/films/dekalog.jpg",
+            "title": "Dekalog",
+            "year": 2022,
+            "director": "Julien Gosselin",
+            "actors": [
+                "Elan Ben Ali",
+                "Léa Luce Busato",
+                "Achille Reggiani"
+            ],
+            "occupation": "Sound Mixer, Sound Editor, Rerecording Mixer"
+        },
+        {
+            "id": 24,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt19121072/?ref_=nm_flmg_job_1_cdt_t_2",
+            "imgFilmUrl": "/films/borgo.jpg",
+            "title": "Borgo",
+            "year": 2023,
+            "director": "Stéphane Demoustier",
+            "actors": [
+                "Hafsia Herzi",
+                "Michel Fau",
+                "Louis Memmi"
+            ],
+            "occupation": "Sound Mixer"
+        }
+        
+        
+    ],
+    "formation": [
+        {
+            "id": 1,
+            "logoUrl": "/icones_formation/saint_cyr.jpg",
+            "formationInfo":{
+                "title": "Science High School Diploma",
+                "school": "Saint Cyr High School", 
+                "period": "1999-2002", 
+                "graduation": " French Baccalaureate, With Distinction (\"Bien\")", 
+                "location": "Nevers"
+            },
+            "capacities": [],
+            "description": "Graduated with a French Scientific Baccalaureate, specializing in Mathematics, with honors (Mention Bien)"
+        },
+        {
+            "id": 2,
+            "logoUrl": "/icones_formation/guisthau.png",
+            "formationInfo": {
+                "title": "Ciné Sup'",
+                "school": "Gabriel Guist'hau High School",
+                "period": "2002–2004",
+                "graduation": "Level 5 (2-year university degree)",
+                "location": "Nantes"
+            },
+            "capacities": [],
+            "description": "Public preparatory class for entrance exams to prestigious French film schools (Louis Lumière National Film School and La Fémis), specializing in Sound."
+        },
+        {
+            "id": 3,
+            "logoUrl": "/icones_formation/femis.jpg",
+            "formationInfo": {
+                "title": "La Fémis Degree, Sound Department",
+                "school": "La Fémis (ENSMIS)",
+                "period": "2004–2008",
+                "graduation": "Level 7 (Masters degree equivalent)",
+                "location": "Paris"
+            },
+            "capacities": ["Sound Recording", "Sound Editing", "Mixing"],
+            "description": "A prestigious public film school with a strong focus on hands-on practice. Alongside technical knowledge, I developed teamwork skills and creative autonomy."
+        },
+        {
+            "id": 4,
+            "logoUrl": "/icones_formation/open_classrooms.png",
+            "formationInfo": {
+                "title": "Web Developer",
+                "school": "OpenClassrooms",
+                "period": "2025",
+                "graduation": "Level 5 (2-year university degree)",
+                "location": "Paris (Remote)"
+            },
+            "capacities": ["React", "JavaScript", "TypeScript", "Node.js", "Express"],
+            "description": "Web developer training focused on learning frontend development with React and backend development with Node.js and Express."
+        }
+    ]
+}

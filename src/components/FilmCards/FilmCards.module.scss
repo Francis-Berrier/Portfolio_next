@@ -1,0 +1,17 @@
+@import "../../styles/utils/mixins";
+@import "../../styles/utils/variables";
+
+.filmCards {
+    max-width: 100%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 25px;
+    
+    @include respond-to("mobile"){
+        justify-content: center;
+        row-gap: 25px;
+    }
+}

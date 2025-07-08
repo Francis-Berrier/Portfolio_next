@@ -1,0 +1,18 @@
+@import "../../styles/utils/mixins";
+@import "../../styles/utils/variables";
+
+
+.container  {
+    padding: 50px 30px 50px 30px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+
+    @include respond-to("mobile") {
+        padding: 0 15px 0 15px;
+    }
+}

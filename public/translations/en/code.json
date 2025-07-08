@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Interior architect's website",
+        "codeUrl": "https://github.com/Francis-Berrier/Site-Sophie-Bluel.git",
+        "codeImgUrl": "/pic_projets/bluel_capture.webp",
+        "description": "As part of an exercise to develop the frontend of a website using HTML, JS, and CSS without any library or framework, I chose to structure it with a pure JS MVC architecture to build a client-rendered one-page site. Note that the backend was not developed by me.",
+        "langages": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "id": 2,
+        "name": "Kasa real estate agency website",
+        "codeUrl": "https://github.com/Francis-Berrier/kasa.git",
+        "codeImgUrl": "/pic_projets/kasa_capture.webp",
+        "description": "The task was to develop the website’s frontend based on a provided mockup using React. In addition, I implemented centralized error handling and separated content management to make the project ready for potential translation.",
+        "langages": ["React", "Sass"]
+    },
+    {
+        "id": 3,
+        "name": "Backend of a book rating website",
+        "codeUrl": "https://github.com/Francis-Berrier/VieuxGrimoireBackend.git",
+        "codeImgUrl": "/pic_projets/grimoire_capture.webp",
+        "description": "For this project, we were asked to develop the backend of a book rating website using Node.js, Express, and a MongoDB database. I focused on bringing it close to a production-ready state, with a modular structure and attention to security. I also implemented error monitoring through a logging system. Additionally, to enhance my learning, I developed an alternative version on a separate Git branch using PostgreSQL and Prisma.",
+        "langages": ["Node.Js", "Express.js", "MongoDB", "PostGreSQL"]
+    },
+    {
+        "id": 4,
+        "name": "Portfolio Francis Berrier",
+        "codeUrl": "https://github.com/Francis-Berrier/PortFolio.git",
+        "codeImgUrl": "/pic_projets/portfolio_capture.webp",
+        "description": "Portfolio présentant mon parcours et mes capacités ",
+        "langages": ["React", "TypeScript", "Sass", "Next.Js"]
+    },
+    {
+        "id": 5,
+        "name": "In progress: Table tennis tournament management application",
+        "codeUrl": "",
+        "codeImgUrl": "/pic_projets/tt_capture.webp",
+        "description": "Desktop application designed to improve the management of table tennis tournaments within clubs, optimizing result entry and table assignments for organizers, and enhancing match visibility for players.",
+        "langages": ["React", "TypeScript", "Sass", "Next.Js", "Node.Js", "Express.js", "SQLite", "Electron"]
+    }
+]

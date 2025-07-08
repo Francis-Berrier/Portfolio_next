@@ -1,0 +1,733 @@
+{
+    "abilities": [
+        {
+        "id": 1,
+        "imgUrl": "/abilities_logo/react_logo.svg",
+        "name": "React",
+        "description": "React est une bibliothèque JavaScript développée par Meta pour créer efficacement des interfaces utilisateur interactives basées sur des composants.",
+        "precentProgress": 80
+        },
+        {
+        "id": 2,
+        "imgUrl": "/abilities_logo/html_logo.svg",
+        "name": "HTML 5",
+        "description": "HTML5 est le langage standard pour structurer le contenu web. Il introduit des balises sémantiques, la vidéo, l’audio et améliore l’accessibilité.",
+        "precentProgress": 90
+        },
+        {
+        "id": 3,
+        "imgUrl": "/abilities_logo/css_logo.svg",
+        "name": "CSS 3",
+        "description": "CSS3 permet de styliser les pages web avec des animations, des transitions et des mises en page avancées comme Flexbox ou Grid.",
+        "precentProgress": 90
+        },
+        {
+        "id": 4,
+        "imgUrl": "/abilities_logo/javascript_logo.svg",
+        "name": "Javascript",
+        "description": " JavaScript est un langage de programmation qui rend les pages web interactives : animations, formulaires dynamiques, mises à jour sans recharger.",
+        "precentProgress": 80
+        },
+        {
+        "id": 5,
+        "imgUrl": "/abilities_logo/nodejs_logo.svg",
+        "name": "Node.js",
+        "description": "Node.js est un environnement d’exécution JavaScript côté serveur, basé sur V8, idéal pour les applications web rapides et évolutives.",
+        "precentProgress": 60
+        },
+        {
+        "id": 6,
+        "imgUrl": "/abilities_logo/expressjs_logo.svg",
+        "name": "Express.js",
+        "description": "EExpress.js est un framework minimaliste pour Node.js, conçu pour créer rapidement des API et des applications web.",
+        "precentProgress": 70
+        },
+        {
+        "id": 7,
+        "imgUrl": "/abilities_logo/ror_logo.svg",
+        "name": "Ruby on Rails",
+        "description": "Ruby on Rails est un framework web basé sur Ruby, suivant le principe convention over configuration pour un développement rapide.",
+        "precentProgress": 20
+        },
+        {
+        "id": 8,
+        "imgUrl": "/abilities_logo/nestjs_logo.svg",
+        "name": "NestJs",
+        "description": "NestJS est un framework Node.js structuré, inspiré d’Angular, facilitant le développement d’API robustes en TypeScript.",
+        "precentProgress": 10
+        },
+        {
+        "id": 9,
+        "imgUrl": "/abilities_logo/git_logo.svg",
+        "name": "Git",
+        "description": "Git est un système de contrôle de version distribué, permettant de suivre et de gérer les modifications du code source.",
+        "precentProgress": 75
+        },
+        {
+        "id": 10,
+        "imgUrl": "/abilities_logo/github_logo.svg",
+        "name": "GitHub",
+        "description": "GitHub est une plateforme collaborative basée sur Git, utilisée pour héberger, partager et versionner du code en ligne.",
+        "precentProgress": 75
+        },
+        {
+        "id": 11,
+        "imgUrl": "/abilities_logo/vscode_logo.svg",
+        "name": "Visual Studio Code",
+        "description": "VS Code est un éditeur de code léger, extensible et multiplateforme, idéal pour le développement web et supportant de nombreux langages.",
+        "precentProgress": 75
+        },
+        {
+        "id": 12,
+        "imgUrl": "/abilities_logo/typescript_logo.svg",
+        "name": "TypeScript",
+        "description": "TypeScript est un surensemble de JavaScript ajoutant des types statiques, facilitant la maintenance, la lisibilité et la détection d’erreurs à la compilation.",
+        "precentProgress": 70
+        },
+        {
+        "id": 13,
+        "imgUrl": "/abilities_logo/postgre_logo.svg",
+        "name": "PostGreSQL",
+        "description": "PostgreSQL est un système de base de données relationnelle open source, puissant, fiable, et conforme aux standards SQL.",
+        "precentProgress": 60
+        },
+        {
+        "id": 14,
+        "imgUrl": "/abilities_logo/mysql_logo.svg",
+        "name": "MySQL",
+        "description": "MySQL est un système de gestion de base de données relationnelle très répandu, utilisé pour des applications web simples à complexes.",
+        "precentProgress": 60
+        },
+        {
+        "id": 15,
+        "imgUrl": "/abilities_logo/mongodb_logo.svg",
+        "name": "MongoDB",
+        "description": "MongoDB est une base de données NoSQL orientée documents, flexible, idéale pour les données non structurées et les applications évolutives.",
+        "precentProgress": 50
+        },
+        {
+        "id": 16,
+        "imgUrl": "/abilities_logo/nextjs_logo.svg",
+        "name": "Next.js",
+        "description": "Next.js est un framework React pour le développement web full-stack, avec rendu côté serveur (SSR) et génération statique (SSG).",
+        "precentProgress": 20
+        },
+        {
+        "id": 17,
+        "imgUrl": "/abilities_logo/apple_logo.svg",
+        "name": "MacOS",
+        "description": "MacOS est le système d’exploitation développé par Apple pour ses ordinateurs, connu pour sa stabilité, sa sécurité et son interface intuitive.",
+        "precentProgress": 50
+        },
+        {
+        "id": 18,
+        "imgUrl": "/abilities_logo/windows_logo.svg",
+        "name": "Windows",
+        "description": "Windows est un système d’exploitation développé par Microsoft, largement utilisé dans les environnements personnels, professionnels et éducatifs.",
+        "precentProgress": 60
+        },
+        {
+        "id": 19,
+        "imgUrl": "/abilities_logo/sass_logo.svg",
+        "name": "Sass",
+        "description": "Sass est un préprocesseur CSS qui permet l’utilisation de variables, boucles et fonctions pour écrire du code plus maintenable.",
+        "precentProgress": 80
+        },
+        {
+        "id": 20,
+        "imgUrl": "/abilities_logo/postman_logo.svg",
+        "name": "Postman",
+        "description": "Postman est un outil de test d’API qui facilite les requêtes HTTP, la documentation et l’automatisation des tests.",
+        "precentProgress": 40
+        },
+        {
+        "id": 21,
+        "imgUrl": "/abilities_logo/protools_logo.svg",
+        "name": "Pro Tools",
+        "description": "Pro Tools est un logiciel professionnel de production audio, utilisé dans les studios pour l’enregistrement, l’édition et le mixage avancé.",
+        "precentProgress": 95
+        }
+    ],
+    "code":[
+        {
+            "id": 1,
+            "name": "Site web d'une architecte d'intérieur",
+            "codeUrl": "https://github.com/Francis-Berrier/Site-Sophie-Bluel.git",
+            "codeImgUrl": "/pic_projets/bluel_capture.webp",
+            "description": "Dans le cadre d'un exercice pour développer le frontend d'un site en HTML, JS, et CSS sans bibliothèque ou framework, j'ai choisi de structurer selon une architecture MVC en JS exclusif pour générer un site One Page en rendu client. A noter que le backend n'est pas codé par mes soins",
+            "langages": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+            "id": 2,
+            "name": "Site agence immobiliere Kasa",
+            "codeUrl": "https://github.com/Francis-Berrier/kasa.git",
+            "codeImgUrl": "/pic_projets/kasa_capture.webp",
+            "description": "La demande était de développer le frontend du site conformément à une maquette fournie en React. Dans ce projet, j'ai en outre apporté une gestion des erreurs centralisée et une gestion du contenu séparé pour le rendre prêt à une éventuelle traduction.",
+            "langages": ["React", "Sass"]
+        },
+        {
+            "id": 3,
+            "name": "Backend d'un site de notation de livres",
+            "codeUrl": "https://github.com/Francis-Berrier/VieuxGrimoireBackend.git",
+            "codeImgUrl": "/pic_projets/grimoire_capture.webp",
+            "description": "Pour ce projet, il nous était demandé de développer le backend d'un site de notation de livres grâce à Node.js, express et une base de données MongoDb. Pour ce projet, je me suis attaché à le rendre proche d'un état production, dans la logique modulaire et la sécurité. J'ai par ailleurs implanté un monitoring des erreurs via un journal de logs. En plus, afin de parfaire mon apprentissage, j'ai choisi de développer sur une autre branche Git une version fonctionnant avec PostGreSql et prisma.",
+            "langages": ["Node.Js", "Express.js", "MongoDB", "PostGreSQL"]
+        },
+        {
+            "id": 4,
+            "name": "Portfolio Francis Berrier",
+            "codeUrl": "https://github.com/Francis-Berrier/PortFolio.git",
+            "codeImgUrl": "/pic_projets/portfolio_capture.webp",
+            "description": "Portfolio présentant mon parcours et mes capacités ",
+            "langages": ["React", "TypeScript", "Sass", "Next.Js"]
+        },
+        {
+            "id": 5,
+            "name": "En Projet: Application de gestion de tournois de tennis de table",
+            "codeUrl": "",
+            "codeImgUrl": "/pic_projets/tt_capture.webp",
+            "description": "Application de bureau visant à améliorer la gestion des tournois de tennis de tables au sein des clubs, pour optimiser la saisie des résultats et le dispatch des tables pour les organisateurs et améliorer la visibilité du déroulement pour les joueurs",
+            "langages": ["React", "TypeScript", "Sass", "Next.Js", "Node.Js", "Express.js", "SQLite", "Electron"]
+        }
+    ],
+    "datas": {
+        "home": {
+            "title": "Francis Berrier",
+            "subtitle": "Développeur Web",
+            "introText": "Après une première carrière dans le cinéma, je suis un jeune développeur web, avide de découvrir de nouveaux projets et défis avec vous. Faisons connaissance!",
+            "buttonContact": "Contact",
+            "buttonGit": "Mon Github",
+            "buttonCV": "Téléchargez mon CV"
+        },
+        "homeSkills": {
+            "entete": "Compétences",
+            "title": "Mes technologies préférées:",
+            "cards": [
+                {
+                    "title": "React",
+                    "logoUrl": "/abilities_logo/react_logo.svg",
+                    "text": "Pour la création de sites et d'applis web réactives et dynamiques, avec React et Next.js, permettant de combiner un rendu serveur des parties statiques pour des performances optimales et la flexibilité du rendu client pour les parties dynamiques."
+                },
+                {
+                    "title": "Sass",
+                    "logoUrl": "/abilities_logo/sass_logo.svg",
+                    "text": "Pour une gestion modulaire et flexible des styles, permettant une structure claire et réutilisable du code, permettant une gestion claire du CSS dans des projets complexes."
+                },  
+                {
+                    "title": "Express.js",
+                    "logoUrl": "/abilities_logo/expressjs_logo.svg",
+                    "text": "Pour créer des API sécurisées et robuste, compatibles avec de nombreux outils et bibliothèques permettant de développer rapidement des API maintenables et prêtes en production. "
+                }
+            ],
+            "linkButton": "Mes autres Compétences"
+        },
+        "homeContact": {
+            "entete": "Entrer en contact",
+            "title": "Ouvert aux nouveaux défis:",
+            "subtitle": "Faisons connaissance, et réalisons-les ensemble",
+            "text": "Si vous avez des questions, un emploi ou un projet à me proposer, n'hésitez pas à me contacter. J'ai hâte de découvrir de nouveaux horizons avec vous.",
+            "linkButton": "Contactez-moi"
+        },
+        "header": {
+            "home": "Francis Berrier",
+            "about": "A propos",
+            "contact": "Contact"
+        },
+        "footer": {
+
+        },
+        "aboutNav": {
+            "title": "A Propos",
+            "buttonCV": "Téléchargez mon CV",
+            "buttons": [
+                {   
+                    "id": 1,
+                    "name": "Biographie",
+                    "page": "/about/bio"
+                },
+                {   
+                    "id": 2,
+                    "name": "Expériences",
+                    "page": "/about/experiences"
+                },
+                {
+                    "id": 3,
+                    "name": "Formation",
+                    "page": "/about/formation"
+                },
+                {   
+                    "id": 4,
+                    "name": "Compétences",
+                    "page": "/about/abilities"
+                }
+            ]
+        },
+        "aboutBio": {
+            "bioInfos": {
+                "photoUrl": "/portrait_self.webp",
+                "name": "Francis Berrier",
+                "age": "41 ans",
+                "occupation": "Web Développeur Full-Stack"
+            },
+            "bioText": {
+                "bioTitle": "Quel est mon parcours?",
+                "bioContent": {
+                    "paragraphe1": "Après près de vingt ans dans l’industrie du cinéma, j’ai eu la chance de participer à de nombreux films reconnus, occupant différents postes dans la création sonore. Cette carrière riche et exigeante m’a appris la rigueur, l’autonomie, le travail d’équipe et l’engagement total au service d’un projet artistique.",
+                    "paragraphe2": "Animé par l’envie de relever de nouveaux défis et de trouver un meilleur équilibre avec ma vie familiale, j’ai entrepris une reconversion vers le développement web. D’abord autodidacte, j’ai rapidement renforcé mes bases grâce à la formation de Développeur Web d’OpenClassrooms, avec un double axe frontend (React, Sass) et backend (Node.js, Express).",
+                    "paragraphe3": "Aujourd’hui, je mets cette même exigence et implication au service du code : curieux, persévérant et pleinement investi dans chaque projet, je continue d’apprendre chaque jour pour devenir un développeur fiable, adaptable et à l’écoute des besoins de l’équipe comme des utilisateurs."
+                }
+            }    
+        },
+        "aboutExperience": {
+            "cinema": {
+                "title":"Cinéma",
+                "text":"Lors de ma carrière dans le cinéma, j'ai évolué pendant plus de 15 ans aux différents postes de la fabrication du son pour un film, du tournage à la post-production. Ces expériences m'ont permis de développer rigueur et abnégation au sein d'une équipe , mais aussi autonomie et créativité au service d'un projet. Si vous souhaitez en savoir plus sur ces travaux, consultez ma filmographie",
+                "link": "/about/experiences/cinemaexperience",
+                "buttonName": "Filmographie"
+            },
+            "code": {
+                "title":"Développement Web",
+                "text":"Au cours de ma formation, je me suis aguérri en développant plusieurs projets d'apprentissages qui m'ont permis de gagner en expérience dans le développement web. Pour vous faire une idée de mes compétences consultez mes réalisations et le code disponible sur Github",
+                "link": "/about/experiences/codeexperience",
+                "buttonName": "Réalisations"
+            }
+        },
+        "aboutExperienceCinema": {
+            "buttonName": "Retour",
+            "link": "/about/experiences",
+            "title": "Expérience dans le Cinéma",
+            "introText": "Au cours de ma première carrière, j'ai eu la chance de travailler sur de nombreux films aux différents postes de la fabrication du son pour le Cinéma. Voici une sélection des films auxquels j'ai eu la chance de participer:",
+            "textFilmo": "Consultez ma filmographie complète",
+            "urlFilmo": "https://www.imdb.com/fr/name/nm2588640/?ref_=ttfc_fcr_cr"
+
+        },
+        "aboutExperienceCode": {
+            "buttonName": "Retour",
+            "link": "/about/experiences",
+            "title": "Expérience de Développement",
+            "introText": "Voici des projets que j'ai pu développer au cours des mois de formation."
+        },
+        "aboutFormation": "Formations",
+        "aboutCompetences": {
+
+        },
+        "filmCardData": {
+            "movieInfos": "Fiche du film",
+            "directedBy": "Réalisé par: ",
+            "starring": "Avec: ",
+            "occupation": "Fonction "
+
+        },
+        "contact": {
+            "title": "Entrons en Contact",
+            "introText": "Si vous avez des questions, un emploi ou un projet à me proposer, n'hésitez pas à me contacter. J'ai hâte de découvrir de nouveaux horizons avec vous.",
+            "labelName": "Nom",
+            "labelSurname": "Prénom",
+            "labelSociety": "Société",
+            "labelEmail": "Email",
+            "labelMessage": "Message",
+            "placeHolder": "Ecrivez votre Message",
+            "labelSubmit": "Envoyer",
+            "formMissedField": "Veuillez renseigner les champs requis (marqué de *) avant d'envoyer votre message",
+            "formWrongEmail": "Email incorrect",
+            "formSendEmail": "Email envoyé",
+            "formErrorEmail": "L'email n'a pas pu être envoyé"
+
+        }
+    },
+    "films": [     
+        {
+            "id": 1,
+            "imdbUrl": "https://www.imdb.com/fr/title/tt1314237/?ref_=nm_flmg_job_1_cdt_c_61",
+            "imgFilmUrl": "/films/les_beaux_gosses.jpg",
+            "title": "Les Beaux Gosses",
+            "year": 2009,
+            "director": "Riad Sattouf",
+            "actors": [
+                "Vincent Lacoste",
+                "Emmanuelle Devos",
+                "Noémie Lvovsky"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 2,
+            "imdbUrl": "https://www.imdb.com/fr/title/tt1452503/?ref_=nm_flmg_job_1_cdt_t_59",
+            "imgFilmUrl": "/films/bulles_de_vian.jpg",
+            "title": "Bulles de Vian",
+            "year": 2009,
+            "director": "Marc Hollogne",
+            "actors": [
+                "Jean-Pierre Marielle",
+                "Jean-Pierre Daroussin",
+                "Iggy Pop"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 3,
+            "imdbUrl": "https://www.imdb.com/fr/title/tt1789992/?ref_=nm_flmg_job_1_cdt_t_48",
+            "imgFilmUrl": "/films/a_vos_caisses.jpg",
+            "title": "A vos Caisses",
+            "year": 2010,
+            "director": "Pierre Isoard",
+            "actors": [
+                "Léa Drucker",
+                "Arnaud Ducret",
+                "Julia Dorval"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 4,
+            "imdbUrl": "https://www.imdb.com/fr/title/tt1858582/?ref_=nm_flmg_job_1_cdt_t_47",
+            "imgFilmUrl": "/films/un_monde_sans_femmes.jpg",
+            "title": "Un Monde Sans Femmes",
+            "year": 2011,
+            "director": "Guillaume Brac",
+            "actors": [
+                "Laure Calamy",
+                "Vincent Macaigne",
+                "Laurent Papot"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 5,
+            "imdbUrl": "https://www.imdb.com/fr/title/tt2339351/?ref_=fn_all_ttl_1",
+            "imgFilmUrl": "/films/alyah.jpg",
+            "title": "Alyah",
+            "year": 2012,
+            "director": "Elie Wajeman",
+            "actors": [
+                "Adèle Haenel",
+                "Pio Marmaï",
+                "Sarah Lepicard"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 6,
+            "imdbUrl": "https://www.imdb.com/fr/title/tt2397487/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_l%27air%2520de%2520rien",
+            "imgFilmUrl": "/films/air_de_rien.jpg" ,
+            "title": "L'Air de Rien",
+            "year": 2012,
+            "director": "Grégory Magne et Stéphane Viard",
+            "actors": [
+                "Grégory Montel",
+                "Michel Delpech",
+                "Miossec"
+            ] ,
+            "occupation": "Perchman"
+        },
+        {
+            "id": 7,
+            "imdbUrl": "https://www.imdb.com/fr/title/tt2836464/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_la%2520braconne",
+            "imgFilmUrl": "/films/la_braconne.jpg",
+            "title": "La Braconne",
+            "year": 2013,
+            "director": "Samuel Rondière",
+            "actors": [
+                "Patrick Chesnay",
+                "Rachid Yous",
+                "Audrey Bastien"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 8,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt3828466/?ref_=nm_flmg_job_1_cdt_c_24",
+            "imgFilmUrl": "/films/tonnerre.jpg",
+            "title": "Tonnerre",
+            "year": 2013,
+            "director": "Guillaume Brac",
+            "actors": [
+                "Vincent Macaigne",
+                "Solène Rigot",
+                "Bernard Ménez"
+            ],
+            "occupation": "Perchman"
+        },
+        
+        {
+            "id": 9,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt3828466/?ref_=nm_flmg_job_1_cdt_c_24",
+            "imgFilmUrl": "/films/terre_battue.jpg",
+            "title": "Terre Battue",
+            "year": 2014,
+            "director": "Stéphane Demoustier",
+            "actors": [
+                "Olivier Gourmet",
+                "Vimala Pons",
+                "Valeria Bruni-Tedeschi"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 10,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt3660370/?ref_=nm_flmg_job_1_cdt_t_26",
+            "imgFilmUrl": "/films/party_girl.jpg",
+            "title": "Party Girl",
+            "year": 2014,
+            "director": "Marie Amachoukeli, Claire Burger, Samuel Theis",
+            "actors": [
+                "Angelique Litzenburger",
+                "Joseph Bour",
+                "Mario Theis"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 11,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt4621060/?ref_=nm_flmg_job_1_cdt_t_22",
+            "imgFilmUrl": "/films/la_terre_penche.jpg",
+            "title": "La Terre Penche",
+            "year": 2015,
+            "director": "Christelle Lheureux",
+            "actors": [
+                "Laetitia Spigarelli",
+                "Damien Bonnard",
+                "Thomas Blanchard"
+            ],
+            "occupation": "Monteur Son"
+        },
+        {
+            "id": 12,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt3757648/?ref_=nm_flmg_job_1_cdt_c_20",
+            "imgFilmUrl": "/films/tempete.jpg",
+            "title": "Tempête",
+            "year": 2015,
+            "director": "Samuel Collardey",
+            "actors": [
+                "Dominique Leborne",
+                "Mailys Leborne",
+                "Mattéo Leborne"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 13,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt3850740/?ref_=nm_flmg_job_1_cdt_t_19",
+            "imgFilmUrl": "/films/demons.jpg",
+            "title": "Démons",
+            "year": 2015,
+            "director": "Marcial Di Fonzo Bo",
+            "actors": [
+                "Marina Foïs",
+                "Romain Duris",
+                "Anaïs Demoustier"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 14,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt5196472/?ref_=nm_flmg_job_1_cdt_t_15",
+            "imgFilmUrl": "/films/compte_tes_blessures.webp",
+            "title": "Compte Tes Blessures",
+            "year": 2016,
+            "director": "Morgan Simon",
+            "actors": [
+                "Kevin Azaïs",
+                "Mona Chokri",
+                "Nathan Wilcocks"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 15,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt5378294/?ref_=nm_flmg_job_1_cdt_t_13",
+            "imgFilmUrl": "/films/des_plans_sur_la_comete.jpg",
+            "title": "Des Plans sur la Comète",
+            "year": 2017,
+            "director": "Guilhem Amesland",
+            "actors": [
+                "Philippe Rebbot",
+                "Vincent Macaigne",
+                "Hafsia Herzi"
+            ],
+            "occupation": "Monteur Son"
+        },
+        {
+            "id": 16,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt5378294/?ref_=nm_flmg_job_1_cdt_t_13",
+            "imgFilmUrl": "/films/une_annee_polaire.jpg",
+            "title": "Une Année Polaire",
+            "year": 2018,
+            "director": "Samuel Collardey",
+            "actors": [
+                "Anders Hvidegaard",
+                "Asser Boassen",
+                "Thomasine Johnatansen"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 17,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt7766144/?ref_=nm_flmg_job_1_cdt_t_11",
+            "imgFilmUrl": "/films/allons_enfants.jpg",
+            "title": "Allons Enfants",
+            "year": 2018,
+            "director": "Stéphane Demoustier",
+            "actors": [
+                "Vimala Pons",
+                "Elsa Wolliaston",
+                "Cléo Demoustier"
+            ],
+            "occupation": "Chef Opérateur du Son, Monteur Son"
+        },
+        {
+            "id": 18,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt8212614/?ref_=nm_flmg_job_1_cdt_t_10",
+            "imgFilmUrl": "/films/roulez_jeunesse.jpg",
+            "title": "Roulez Jeunesse",
+            "year": 2018,
+            "director": "Julien Guetta",
+            "actors": [
+                "Eric Judor",
+                "Laure Calamy",
+                "Louise Labèque"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 19,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt7766886/?ref_=nm_flmg_job_1_cdt_t_8",
+            "imgFilmUrl": "/films/fille_au_bracelet.jpg",
+            "title": "La Fille au Bracelet",
+            "year": 2019,
+            "director": "Stéphane Demoustier",
+            "actors": [
+                "Melissa Guers",
+                "Rochdy Zem",
+                "Chiara Mastroianni"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 20,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt9151382/?ref_=nm_flmg_job_1_cdt_t_7",
+            "imgFilmUrl": "/films/je_voudrais_que_quelquun_m_attende_quelque_part.jpg",
+            "title": "Je Voudrais que quelqu'un m'attende quelque part",
+            "year": 2019,
+            "director": "Arnaud Viard",
+            "actors": [
+                "Jean-Paul Rouve",
+                "Alice Taglioni",
+                "Benjamin Lavernhe"
+            ],
+            "occupation": "Perchman"
+        },
+        {
+            "id": 21,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt11748354/?ref_=nm_flmg_job_1_cdt_t_6",
+            "imgFilmUrl": "/films/les_parfums.jpg",
+            "title": "Les Parfums",
+            "year": 2019,
+            "director": "Grégory Magne",
+            "actors": [
+                "Emmanuelle Devos",
+                "Grégory Montel",
+                "Gustave Kervern"
+            ],
+            "occupation": "Chef Opérateur du Son"
+        },
+        {
+            "id": 22,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt20224464/?ref_=nm_flmg_job_1_cdt_t_4",
+            "imgFilmUrl": "/films/noah_le_sens_de_la_gagne.webp",
+            "title": "Noah, le Sens de la Gagne",
+            "year": 2022,
+            "director": "Vladimir de Fontenay",
+            "actors": [
+                "Yannick Noah",
+                "Guy Forget",
+                "Cédric Pioline"
+            ],
+            "occupation": "Chef Opérateur du Son, Monteur Son"
+        },
+        {
+            "id": 23,
+            "imdbUrl":"http://www.annee0.com/_/dekalog/",
+            "imgFilmUrl": "/films/dekalog.jpg",
+            "title": "Dekalog",
+            "year": 2022,
+            "director": "Julien Gosselin",
+            "actors": [
+                "Elan Ben Ali",
+                "Léa Luce Busato",
+                "Achille Reggiani"
+            ],
+            "occupation": "Chef Opérateur du Son, Monteur Son, Mixeur"
+        },
+        {
+            "id": 24,
+            "imdbUrl":"https://www.imdb.com/fr/title/tt19121072/?ref_=nm_flmg_job_1_cdt_t_2",
+            "imgFilmUrl": "/films/borgo.jpg",
+            "title": "Borgo",
+            "year": 2023,
+            "director": "Stéphane Demoustier",
+            "actors": [
+                "Hafsia Herzi",
+                "Michel Fau",
+                "Louis Memmi"
+            ],
+            "occupation": "Chef Opérateur du Son"
+        }
+    ],
+    "formation":[
+        {
+            "id": 1,
+            "logoUrl": "/icones_formation/saint_cyr.jpg",
+            "formationInfo":{
+                "title": "Baccalauréat Scientifique",
+                "school": "Lycée Saint Cyr", 
+                "period": "1999-2002", 
+                "graduation": "Baccalauréat Mention Bien", 
+                "location": "Nevers"
+            },
+            "capacities": [],
+            "description": "Obtention d'un baccalauréat scientifique, spécialité maths avec la mention Bien "
+        },
+        {
+            "id": 2,
+            "logoUrl": "/icones_formation/guisthau.png",
+            "formationInfo":{
+                "title": "Ciné Sup'",
+                "school": "Lycée Gabriel Guist'hau", 
+                "period": "2002-2004", 
+                "graduation": "Niveau 5 (Bac+2)", 
+                "location": "Nantes"
+            },
+            "capacities": [] ,
+            "description": "Classe préparatoire publique préparant aux concours d'entrée aux grandes écoles de Cinéma( Ecole NAtionale SUpérieure Louis Lumière et la Fémis), dans la spécialisation Son"
+        },
+        {
+            "id": 3,
+            "logoUrl": "/icones_formation/femis.jpg",
+            "formationInfo":{
+                "title": "Diplôme de la Fémis, Spécialisation Son",
+                "school": "La Fémis (ENSMIS)", 
+                "period": "2004-2008", 
+                "graduation": "Niveau 7 (Bac +5)", 
+                "location": "Paris"
+            },
+            "capacities": ["Prise de Son", "Montage Son", "Mixage"],
+            "description": "Grande école publique formant aux métiers du Cinéma, laissant une grande part à la pratique, j'y ai développé outre les connaissances techniques, le travail d'équipe etc..."
+        },
+        {
+            "id": 4,
+            "logoUrl": "/icones_formation/open_classrooms.png",
+            "formationInfo":{
+                "title": "Web Développeur",
+                "school": "Open Classrooms", 
+                "period": "2025", 
+                "graduation": "Niveau 5 (Bac +2)", 
+                "location": "Paris (A distance)"
+            },
+            "capacities": ["React", "JavaScript", "TypeScript", "Node.js", "Express"],
+            "description": "Formation de web developpeur axé sur l'apprentissage du frontend React et un backend Node.js et express"
+        }
+    ]
+
+
+}

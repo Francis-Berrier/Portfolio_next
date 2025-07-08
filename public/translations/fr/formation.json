@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "logoUrl": "/icones_formation/saint_cyr.jpg",
+        "formationInfo":{
+            "title": "Baccalauréat Scientifique",
+            "school": "Lycée Saint Cyr", 
+            "period": "1999-2002", 
+            "graduation": "Baccalauréat Mention Bien", 
+            "location": "Nevers"
+        },
+        "capacities": [],
+        "description": "Obtention d'un baccalauréat scientifique, spécialité maths avec la mention Bien "
+    },
+    {
+        "id": 2,
+        "logoUrl": "/icones_formation/guisthau.png",
+        "formationInfo":{
+            "title": "Ciné Sup'",
+            "school": "Lycée Gabriel Guist'hau", 
+            "period": "2002-2004", 
+            "graduation": "Niveau 5 (Bac+2)", 
+            "location": "Nantes"
+        },
+        "capacities": [] ,
+        "description": "Classe préparatoire publique préparant aux concours d'entrée aux grandes écoles de Cinéma( Ecole NAtionale SUpérieure Louis Lumière et la Fémis), dans la spécialisation Son"
+    },
+    {
+        "id": 3,
+        "logoUrl": "/icones_formation/femis.jpg",
+        "formationInfo":{
+            "title": "Diplôme de la Fémis, Spécialisation Son",
+            "school": "La Fémis (ENSMIS)", 
+            "period": "2004-2008", 
+            "graduation": "Niveau 7 (Bac +5)", 
+            "location": "Paris"
+        },
+        "capacities": ["Prise de Son", "Montage Son", "Mixage"],
+        "description": "Grande école publique formant aux métiers du Cinéma, laissant une grande part à la pratique, j'y ai développé outre les connaissances techniques, le travail d'équipe etc..."
+    },
+    {
+        "id": 4,
+        "logoUrl": "/icones_formation/open_classrooms.png",
+        "formationInfo":{
+            "title": "Web Développeur",
+            "school": "Open Classrooms", 
+            "period": "2025", 
+            "graduation": "Niveau 5 (Bac +2)", 
+            "location": "Paris (A distance)"
+        },
+        "capacities": ["React", "JavaScript", "TypeScript", "Node.js", "Express"],
+        "description": "Formation de web developpeur axé sur l'apprentissage du frontend React et un backend Node.js et express"
+    }
+]
