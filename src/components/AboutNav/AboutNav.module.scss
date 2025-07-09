@@ -78,7 +78,7 @@
 
     @include respond-to("tablet"){
         width: 100px;
-        margin: 8px 10px;
+        margin: 8px 0;
         font-size: 12px;
         padding: 5px;
         border-radius: 15px;
